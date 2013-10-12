@@ -1,4 +1,4 @@
-satnet-r1
-=========
+satnet-main
+===========
 
-Repository for the release 1 of the SATNet software.
+Main repository for the development of the SATNet software.

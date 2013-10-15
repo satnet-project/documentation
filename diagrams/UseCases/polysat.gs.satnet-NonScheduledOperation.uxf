@@ -9,7 +9,8 @@
       <w>100</w>
       <h>180</h>
     </coordinates>
-    <panel_attributes>M-Client
+    <panel_attributes>*M-Client*
+*(Softare)*
 fg=blue
 bg=blue</panel_attributes>
     <additional_attributes/>
@@ -22,7 +23,8 @@ bg=blue</panel_attributes>
       <w>120</w>
       <h>180</h>
     </coordinates>
-    <panel_attributes>G-Client
+    <panel_attributes>*G-Client*
+*Software*
 fg=red
 bg=red
 </panel_attributes>

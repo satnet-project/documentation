@@ -10,6 +10,7 @@
       <h>180</h>
     </coordinates>
     <panel_attributes>*M-Client*
+*(Software)*
 fg=blue
 bg=blue</panel_attributes>
     <additional_attributes/>
@@ -23,6 +24,7 @@ bg=blue</panel_attributes>
       <h>180</h>
     </coordinates>
     <panel_attributes>*G-Client*
+*(Software)*
 fg=red
 bg=red
 </panel_attributes>

@@ -7,10 +7,11 @@
       <x>130</x>
       <y>380</y>
       <w>100</w>
-      <h>140</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>Ground
 Station
+(Human)
 Operator</panel_attributes>
     <additional_attributes/>
   </element>
@@ -20,10 +21,11 @@ Operator</panel_attributes>
       <x>580</x>
       <y>100</y>
       <w>100</w>
-      <h>120</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>N-System
-Operator</panel_attributes>
+Operator
+(Human)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

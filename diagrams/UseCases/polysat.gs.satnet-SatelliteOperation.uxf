@@ -50,8 +50,9 @@ fg=black</panel_attributes>
       <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Check G-Client
+    <panel_attributes>G-Client
 availability
+(pull)
 bg=green
 fg=black</panel_attributes>
     <additional_attributes/>
@@ -171,8 +172,9 @@ fg=black</panel_attributes>
       <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Notify G-Client
-availability
+    <panel_attributes>G-Client
+available
+(push)
 bg=green
 fg=black</panel_attributes>
     <additional_attributes/>
@@ -254,9 +256,8 @@ fg=black</panel_attributes>
       <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Report
-G-Client
-Error
+    <panel_attributes>G-Client
+Error (push)
 bg=green
 fg=black</panel_attributes>
     <additional_attributes/>
@@ -269,9 +270,8 @@ fg=black</panel_attributes>
       <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Report
-M-Client
-Error
+    <panel_attributes>M-Client
+Error (push)
 bg=green
 fg=black</panel_attributes>
     <additional_attributes/>
@@ -295,9 +295,8 @@ fg=black</panel_attributes>
       <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Notify
-G-Client
-Error
+    <panel_attributes>G-Client
+Error (pull)
 bg=green
 fg=black</panel_attributes>
     <additional_attributes/>
@@ -330,11 +329,12 @@ fg=black</panel_attributes>
       <x>160</x>
       <y>220</y>
       <w>120</w>
-      <h>60</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=.
 Upstream
 Data
+(push/pull)
 fg=red
 bg=yellow</panel_attributes>
     <additional_attributes/>
@@ -343,13 +343,14 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
       <x>290</x>
-      <y>280</y>
+      <y>270</y>
       <w>120</w>
-      <h>60</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=.
 Downstream
 Data
+(push/pull)
 fg=red
 bg=yellow</panel_attributes>
     <additional_attributes/>
@@ -362,9 +363,8 @@ bg=yellow</panel_attributes>
       <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Notify
-M-Client
-Error
+    <panel_attributes>M-Client
+Error (pull)
 bg=green
 fg=black</panel_attributes>
     <additional_attributes/>

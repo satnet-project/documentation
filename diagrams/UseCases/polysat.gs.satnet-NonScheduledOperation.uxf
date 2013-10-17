@@ -5,7 +5,7 @@
     <type>com.umlet.element.Actor</type>
     <coordinates>
       <x>30</x>
-      <y>400</y>
+      <y>390</y>
       <w>100</w>
       <h>180</h>
     </coordinates>
@@ -38,15 +38,15 @@ bg=red
       <w>310</w>
       <h>240</h>
     </coordinates>
-    <panel_attributes>Non-SCS, data push
+    <panel_attributes>Non-Scheduled Comms. Service
 fg=black</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>160</x>
-      <y>400</y>
+      <x>200</x>
+      <y>390</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -57,28 +57,15 @@ fg=black</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
-    <coordinates>
-      <x>160</x>
-      <y>330</y>
-      <w>120</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Authenticate
-bg=green
-fg=black</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>80</x>
+      <x>100</x>
       <y>330</y>
-      <w>100</w>
-      <h>90</h>
+      <w>80</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>30;70;50;30;80;30</additional_attributes>
+    <additional_attributes>30;90;30;30;60;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
@@ -86,7 +73,7 @@ fg=black</panel_attributes>
       <x>140</x>
       <y>10</y>
       <w>340</w>
-      <h>650</h>
+      <h>550</h>
     </coordinates>
     <panel_attributes>*Network Communications System*
 *(N-System)*</panel_attributes>
@@ -96,122 +83,67 @@ fg=black</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>80</x>
-      <y>400</y>
-      <w>100</w>
+      <y>390</y>
+      <w>140</w>
       <h>50</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>30;30;80;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.UseCase</type>
-    <coordinates>
-      <x>160</x>
-      <y>540</y>
-      <w>120</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Close
-Session
-bg=green
-fg=black</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.UseCase</type>
-    <coordinates>
-      <x>320</x>
-      <y>80</y>
-      <w>120</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Authenticate
-bg=green
-fg=black</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>30;30;120;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>80</x>
-      <y>440</y>
-      <w>100</w>
-      <h>150</h>
+      <x>100</x>
+      <y>390</y>
+      <w>80</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>30;30;50;130;80;130</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.UseCase</type>
-    <coordinates>
-      <x>320</x>
-      <y>220</y>
-      <w>120</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Close
-Session
-bg=green
-fg=black</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>30;30;30;80;60;80</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>390</x>
-      <y>150</y>
-      <w>130</w>
+      <x>380</x>
+      <y>140</y>
+      <w>140</w>
       <h>50</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>30;30;110;30</additional_attributes>
+    <additional_attributes>30;30;120;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>410</x>
       <y>80</y>
-      <w>110</w>
-      <h>90</h>
+      <w>100</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>30;30;80;30;90;70</additional_attributes>
+    <additional_attributes>30;30;80;30;80;100</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>410</x>
-      <y>180</y>
-      <w>110</w>
+      <y>150</y>
+      <w>100</w>
       <h>90</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>30;70;80;70;90;30</additional_attributes>
+    <additional_attributes>30;70;80;70;80;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>260</x>
-      <y>150</y>
+      <x>250</x>
+      <y>140</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Store Collected
-Data (push)
-bg=green
-fg=black</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.UseCase</type>
-    <coordinates>
-      <x>160</x>
-      <y>470</y>
-      <w>120</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Retrieve
-Data (pull)
+    <panel_attributes>Store Data
+(push)
 bg=green
 fg=black</panel_attributes>
     <additional_attributes/>
@@ -222,21 +154,62 @@ fg=black</panel_attributes>
       <x>150</x>
       <y>300</y>
       <w>310</w>
-      <h>340</h>
+      <h>250</h>
     </coordinates>
-    <panel_attributes>Non-SCS, data pull
+    <panel_attributes>Non-Scheduled Comms. Service
 fg=black</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>80</x>
-      <y>420</y>
-      <w>100</w>
-      <h>100</h>
+      <x>320</x>
+      <y>100</y>
+      <w>120</w>
+      <h>30</h>
     </coordinates>
-    <panel_attributes/>
-    <additional_attributes>30;30;50;80;80;80</additional_attributes>
+    <panel_attributes>Authenticate
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>320</x>
+      <y>210</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Close Session
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>160</x>
+      <y>350</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Authenticate
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>160</x>
+      <y>460</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Close Session
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

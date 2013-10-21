@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Actor</type>
+    <coordinates>
+      <x>60</x>
+      <y>330</y>
+      <w>100</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>G-Operator
+*(Human)*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Actor</type>
+    <coordinates>
+      <x>490</x>
+      <y>130</y>
+      <w>100</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>N-System
+Operator
+*(Human)*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>180</x>
+      <y>50</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Registration Service
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>360</x>
+      <y>80</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes>130;90;130;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>340</x>
+      <y>140</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Validate
+Register
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>140</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30;30;80;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>200</x>
+      <y>140</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Notify
+Registration
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>170</x>
+      <y>10</y>
+      <w>310</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>*Network Communications System*
+*(N-System)*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>200</x>
+      <y>250</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Unregister
+G-Client
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>180</x>
+      <y>220</y>
+      <w>290</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Registration Service
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>340</x>
+      <y>260</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Notify
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>140</y>
+      <w>100</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>80;30;60;30;60;140;30;140</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>270</x>
+      <y>350</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>GS
+Configuration
+(push)
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>270</x>
+      <y>90</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Register
+G-Client
+fg=red
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>110</x>
+      <y>80</y>
+      <w>180</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30;270;50;270;50;30;160;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>130</x>
+      <y>140</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30;30;70;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>130</x>
+      <y>250</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30;30;70;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>110</x>
+      <y>360</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30;30;160;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>180</x>
+      <y>320</y>
+      <w>290</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Configuration Service
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

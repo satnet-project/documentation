@@ -1,0 +1,390 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACKAGES
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage[Sonny]{fncychap}
+\usepackage{titlesec}
+\usepackage{shorttoc}
+\usepackage{microtype} % makes pdf look better
+\usepackage[tc]{titlepic}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{tikz}
+    \usetikzlibrary{shapes,arrows}
+    \usetikzlibrary{fit,backgrounds}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{lastpage}
+\usepackage{ifthen}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pifont}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{sectsty}
+\usepackage{lastpage}
+\usepackage{etoolbox}
+\usepackage{tabularx}
+\usepackage{gensymb}
+
+\numberwithin{equation}{section}
+\AtBeginEnvironment{array}{\renewcommand\arraystretch{1.75}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COLORS
+\definecolor{titleColor}{RGB}{180,0,0}
+\definecolor{otherColor}{RGB}{171,0,255}
+\definecolor{nameColor}{RGB}{255,0,0}
+\definecolor{phdColor}{RGB}{0,0,240}
+\definecolor{CoolBlue}{rgb}{0.2,0.4,0.67}
+\definecolor{CoolPaleBlue}{rgb}{0.4,0.6,0.67}
+\definecolor{CoolPaleGrey}{rgb}{0.67,0.73,0.73}
+\definecolor{CoolGreen1}{rgb}{0.47,0.67,0.47}
+\definecolor{CoolGreen2}{rgb}{0.38,0.73,0.133}
+\definecolor{CoolGreen3}{rgb}{0.435,0.627,0.435}
+\definecolor{lightGray}{gray}{.90}
+\definecolor{darkGray}{gray}{.20}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FONTS
+% helvética en los títulos
+% Helvetica :: phv
+% Garamond :: garamond
+% Times :: ptm
+% Courier :: pcr
+
+% Napapiir :: npp (only english characters)
+% TeXGyreAdventor :: gag
+
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\familydefault}{\sfdefault}
+\sffamily
+\onehalfspacing
+\normalfont
+
+\newcommand{\setArialFont}{\fontfamily{phv}\selectfont}
+
+\AtBeginDocument
+{
+    \renewcommand{\captionfont}{\sffamily\footnotesize}
+    \renewcommand{\captionlabelfont}{\sffamily\footnotesize}
+    \setcounter{secnumdepth}{5}
+    \renewcommand{\listfigurename}{Índice de figuras}
+    \renewcommand{\listtablename}{Índice de tablas}
+    \renewcommand{\tablename}{Tabla}
+}
+
+\newcounter{notes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDS
+\newcommand{\arrowmark}{\ding{225}}
+\newcommand{\bt}{$\blacktriangle$}
+
+\newcommand{\regmark}{\textsuperscript{\textregistered}}
+\newcommand{\negr}[1]{\textbf{#1}}
+\newcommand{\curs}[1]{\textsl{#1}}
+
+\newcommand{\paragraphln}[1]
+{
+    \paragraph{#1}
+    \mbox{}\\
+}
+\newcommand{\thline}{\specialrule{3pt}{0pt}{0pt}}
+
+\newcommand{\newContents}[2]
+{
+    \note
+    {
+	\vspace{0.75em}
+	NUEVO\newline
+	\hrule
+	\vspace{0.75em}
+	#1
+	\vspace{0.75em}
+	\hrule
+    }
+    \colorbox{gray!20}{#2}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% NEW ENVIRONMENTS
+\newenvironment{reqTable}
+{
+    \begin{small}
+	\centering
+	\sffamily
+	\renewcommand\arraystretch{1.5}
+	\setlength{\abovecaptionskip}{15pt}
+	\setlength{\belowcaptionskip}{0pt}
+	\begin{longtable}{p{0.22\textwidth}p{0.76\textwidth}}
+	    \thline
+}
+{
+	    \nopagebreak
+	    \thline
+	    \nopagebreak
+	\end{longtable}
+    \end{small}
+}
+
+\newenvironment{docTable}
+{
+    \begin{small}
+	\centering
+	\sffamily
+	\renewcommand\arraystretch{1.5}
+	\setlength{\abovecaptionskip}{15pt}
+	\setlength{\belowcaptionskip}{0pt}
+	\begin{longtable}{|p{0.75cm}|p{3.25cm}|p{2.5cm}|p{3.5cm}|p{0.95cm}|}
+	    \thline
+}
+{
+	    \nopagebreak
+	    \thline
+	    \nopagebreak
+	\end{longtable}
+    \end{small}
+}
+
+\newenvironment{logTable}
+{
+    \begin{small}
+	\centering
+	\sffamily
+	\renewcommand\arraystretch{1.5}
+	\setlength{\abovecaptionskip}{15pt}
+	\setlength{\belowcaptionskip}{0pt}
+	\begin{longtable}{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.20\textwidth}|p{
+0.5\textwidth} }
+	    \thline
+}
+{
+	    \nopagebreak
+	    \thline
+	    \nopagebreak
+	\end{longtable}
+    \end{small}
+}
+
+\newcommand{\req}[3]
+{
+    \textbf{#1} & \textbf{#2}\\
+    & #3\\
+}
+\newcommand{\reqnote}[1]
+{
+    & \textit{\textbf{NOTA:} #1}\\
+}
+
+\newsavebox{\selvestebox}
+\newenvironment{colbox}[1]
+{
+    \newcommand\colboxcolor{#1}
+    \begin{lrbox}{\selvestebox}
+	\begin{minipage}[c]{\textwidth}
+	    \begin{minipage}[c]{0.95\textwidth}
+	    \vspace{20pt}
+}
+{
+	    \vspace{5pt}
+	    \end{minipage}
+	\end{minipage}
+    \end{lrbox}
+    \begin{center}
+	\colorbox[HTML]{\colboxcolor}{\usebox{\selvestebox}}
+	\vspace{5pt}
+    \end{center}
+}
+
+\newenvironment{env.note}
+{
+    \begin{colbox}{EEEEEE}
+    \itshape
+    \setcounter{notes}{0}
+    \setlength{\leftmargini}{2.6\leftmargin}
+    \setlength{\itemsep}{20pt}
+    \begin{itemize}
+	\renewcommand{\labelitemi}
+	{\addtocounter{notes}{1}\arrowmark \textbf{NOTA \arabic{notes}:}}
+}
+{
+    \end{itemize}
+    \end{colbox}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HEADINGS
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\hspace{2em} #1}}
+\fancyhf{}
+\fancyhead[LO]
+{
+    \begin{tikzpicture}[remember picture, overlay]
+	\draw [line width=2.00pt] (-1.05,-0.05) -- (6.55,-0.05);
+	\draw [line width=0.50pt] (-1.25,-0.05) -- (7.35,-0.05);
+	\draw (2.25,0.45) node
+	{
+		\rmfamily\bfseries\footnotesize
+		\docTitle\hspace{1em}|\hspace{1em}\docIssue
+		\hspace{1em}|\hspace{1em}\thepage
+		\hspace{0.5em}of\hspace{0.5em}\pageref*{LastPage}
+	};
+	\draw (12.00,1.15) node
+		{\includegraphics[width=0.25\paperwidth]{__img/cubesat-logo.png}};
+    \end{tikzpicture}
+}
+
+\fancyhead[RE]
+{
+    \begin{tikzpicture}[remember picture, overlay]
+	\draw (-10.5,0.85) node
+	{
+	    \arrowmark
+	    \rmfamily\bfseries\footnotesize
+		\hspace{2em}\leftmark
+	};
+	\draw [line width=2.00pt] (-14.75,0.45) -- (-5.55,0.45);
+	\draw [line width=0.50pt] (-15.00,0.45) -- (-5.35,0.45);
+	\draw (-14.85,-2.5) node [rotate=90]
+	{
+	    \rmfamily\footnotesize
+	    Page\hspace{2em}\thepage
+	    \hspace{2em}of\hspace{2em}\pageref*{LastPage}
+	};
+	\draw [line width=2.00pt] (-14.5,1.25) -- (-14.5,-8.0);
+	\draw [line width=0.50pt] (-14.5,1.75) -- (-14.5,-8.75);
+    \end{tikzpicture}
+}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{0.5pt}
+
+\fancypagestyle{plain}
+{
+    \fancyhead{}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+\sectionfont{\rmfamily}
+\subsectionfont{\rmfamily}
+\subsubsectionfont{\rmfamily}
+\paragraphfont{\rmfamily}
+\subparagraphfont{\rmfamily}
+
+\newcommand*{\newblankpage}
+{
+    \newpage
+    \thispagestyle{empty}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LINKS
+\hypersetup
+{
+	citecolor=CoolBlue,
+	colorlinks=true,
+	filecolor=CoolBlue,
+	linkcolor=CoolBlue,
+	pagecolor=white,
+	pdfauthor={California Polytechnic State University (www.calpoly.edu)},
+	pdfcreator={PDFLatex with custom class},
+	pdffitwindow=true,
+	pdfkeywords={CubeSat, ground station, network, remote operations},
+	pdfmenubar=false,
+	pdfnewwindow=true,
+	pdfproducer={California Polytechnic State University (www.calpoly.edu)},
+	pdfsubject={SATNet project documentation.},
+	pdftitle={Document for the SATNet project.},
+	pdftoolbar=false,
+	unicode=false,
+	urlcolor=CoolBlue
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% NOTES COMMAND
+\newcommand{\note}[1]
+{
+    \marginpar
+    {
+	\setArialFont
+	\rule{\marginparwidth}{5pt}
+	\vspace{3pt}
+	\parbox{\marginparwidth}{\scriptsize#1}
+	\vspace{3pt}
+	\rule{\marginparwidth}{5pt}
+    }
+}
+
+\newcommand{\breaklongtable}[1]
+{
+	\multicolumn{#1}{c}
+	    {\scriptsize\itshape
+		(Continues on next page) $\Longrightarrow$}\\
+	\pagebreak
+	\multicolumn{#1}{c}
+	    {\scriptsize\itshape
+		$\Longleftarrow$ (Comes from previous page)}\\
+}
+
+\newcommand{\firsttitlelongtable}[2]
+{
+	\multicolumn{#1}{c}
+	    {\cellcolor{CoolBlue!10}\large\scshape\bfseries #2}\\
+ 	\thline
+}
+\newcommand{\titlelongtable}[2]
+{
+ 	\thline
+	\firsttitlelongtable{#1}{#2}
+}
+
+\newcommand{\distributionpage}
+{
+	\subsection{Distribution License}
+	
+	\begin{center}
+		\includegraphics[width=1.05\textwidth]{__img/cc-3.0-by-sa-LICENSE.png}
+	\end{center}
+}
+
+\newcommand{\contactpage}
+{
+	\subsection{Contact}
+	\begin{center}
+	\footnotesize
+	\begin{tabular}{ c|c|c }
+Cal Poly - San Luis Obispo & Cal Poly - San Luis Obispo & Cal Poly - San Luis Obispo\\
+Dr. Ricardo Tubio-Pardavila & Prof. Jordi Puig-Suari & Prof. John Bellardo\\
+Aerospace Eng. Dept. & Aerospace Eng. Dept. & Computer Science Dept.\\
+(805) 709 1080 & (805) 756-5087 & -\\ 
+- & FAX:(805) 756-2376 & -\\
+rtubiopa@calpoly.edu & jpuigsua@calpoly.edu & bellardo@calpoly.edu\\
+\end{tabular}
+	\end{center}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PAGE STYLES
+% Empty pages in between chapters
+\let\origdoublepage\cleardoublepage
+\newcommand{\clearemptydoublepage}
+{
+    \clearpage
+    {
+        \pagestyle{empty}
+        \origdoublepage
+    }
+}
+\let\cleardoublepage\clearemptydoublepage
+
+\newlength{\arrayrulewidthOriginal}
+\newcommand{\xcline}[2]
+{
+  \noalign{\global\setlength{\arrayrulewidthOriginal}{\arrayrulewidth}}
+  \noalign{\global\setlength{\arrayrulewidth}{#1}}\cline{#2}
+  \noalign{\global\setlength{\arrayrulewidth}{\arrayrulewidthOriginal}}
+}
+

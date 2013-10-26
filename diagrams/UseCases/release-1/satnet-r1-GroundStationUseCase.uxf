@@ -95,7 +95,7 @@ fg=black</panel_attributes>
       <x>170</x>
       <y>10</y>
       <w>310</w>
-      <h>440</h>
+      <h>570</h>
     </coordinates>
     <panel_attributes>*Network Communications System*
 *(N-System)*</panel_attributes>
@@ -159,9 +159,8 @@ fg=black</panel_attributes>
       <w>120</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>GS
-Configuration
-(push)
+    <panel_attributes>Configure
+Ground Station
 bg=green
 fg=black</panel_attributes>
     <additional_attributes/>
@@ -229,6 +228,18 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.Package</type>
     <coordinates>
       <x>180</x>
+      <y>450</y>
+      <w>290</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Scheduling Service
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>180</x>
       <y>320</y>
       <w>290</w>
       <h>120</h>
@@ -236,5 +247,31 @@ bg=yellow</panel_attributes>
     <panel_attributes>Configuration Service
 fg=black</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>270</x>
+      <y>480</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>GS Consult
+Operation
+Reservations
+bg=green
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>110</x>
+      <y>380</y>
+      <w>180</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30;30;50;30;50;140;160;140</additional_attributes>
   </element>
 </diagram>

@@ -9,7 +9,7 @@
       <w>100</w>
       <h>180</h>
     </coordinates>
-    <panel_attributes>M-Client
+    <panel_attributes>M-Client (A)
 *(Software)*
 fg=blue
 bg=blue</panel_attributes>
@@ -23,7 +23,7 @@ bg=blue</panel_attributes>
       <w>120</w>
       <h>180</h>
     </coordinates>
-    <panel_attributes>G-Client
+    <panel_attributes>G-Client (C)
 *(Software)*
 fg=red
 bg=red
@@ -245,8 +245,7 @@ bg=yellow</panel_attributes>
       <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Compatible
-G-Client
+    <panel_attributes>Connect(C)
 (pull)
 bg=green
 fg=black</panel_attributes>
@@ -260,8 +259,7 @@ fg=black</panel_attributes>
       <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>G-Client
-available
+    <panel_attributes>C is available
 (push)
 bg=green
 fg=black</panel_attributes>

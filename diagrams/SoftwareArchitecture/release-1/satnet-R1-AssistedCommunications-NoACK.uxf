@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="12.1">
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>190</x>
-      <y>30</y>
-      <w>100</w>
-      <h>40</h>
+      <x>81</x>
+      <y>45</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>_:M-Client_
 (A)
@@ -18,10 +18,10 @@ bg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>650</x>
-      <y>30</y>
-      <w>100</w>
-      <h>40</h>
+      <x>495</x>
+      <y>45</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>_:G-Client_
 (C)
@@ -32,10 +32,10 @@ bg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>420</x>
-      <y>30</y>
-      <w>100</w>
-      <h>40</h>
+      <x>288</x>
+      <y>45</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>_:clients-IF-d_
 (B)
@@ -46,58 +46,58 @@ bg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>40</y>
-      <w>50</w>
-      <h>870</h>
+      <x>99</x>
+      <y>54</y>
+      <w>44</w>
+      <h>782</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>30;30;30;850</additional_attributes>
+    <additional_attributes>27;27;27;765</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>40</y>
-      <w>50</w>
-      <h>870</h>
+      <x>306</x>
+      <y>54</y>
+      <w>44</w>
+      <h>782</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>30;30;30;850</additional_attributes>
+    <additional_attributes>27;27;27;765</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>290</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>279</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-upstream(A,C,msg-1)
+sendMsg(A,C,msg-1)
 </panel_attributes>
-    <additional_attributes>260;50;30;50</additional_attributes>
+    <additional_attributes>234;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>290</y>
-      <w>280</w>
-      <h>70</h>
+      <x>306</x>
+      <y>279</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-upstream(A,C,msg-1)
+sendMsg(A,C,msg-1)
 </panel_attributes>
-    <additional_attributes>260;50;30;50</additional_attributes>
+    <additional_attributes>234;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>460</x>
-      <y>260</y>
-      <w>20</w>
-      <h>30</h>
+      <x>324</x>
+      <y>252</y>
+      <w>18</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -105,73 +105,73 @@ upstream(A,C,msg-1)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>450</x>
-      <y>210</y>
-      <w>270</w>
-      <h>70</h>
+      <x>315</x>
+      <y>207</y>
+      <w>242</w>
+      <h>63</h>
     </coordinates>
-    <panel_attributes>lt=&lt;
-connect(C)</panel_attributes>
-    <additional_attributes>30;50;250;50</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;
+connect(C,A,slot-id)</panel_attributes>
+    <additional_attributes>27;45;225;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>240</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>234</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-available(C)</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+notifyConnection(C)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>310</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>297</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-upstream(A,C,msg-2)
+sendMsg(A,C,msg-2)
 </panel_attributes>
-    <additional_attributes>260;50;30;50</additional_attributes>
+    <additional_attributes>234;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>330</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>315</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-upstream(A,C,msg-3)
+sendMsg(A,C,msg-3)
 </panel_attributes>
-    <additional_attributes>260;50;30;50</additional_attributes>
+    <additional_attributes>234;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>330</y>
-      <w>270</w>
-      <h>70</h>
+      <x>306</x>
+      <y>315</y>
+      <w>242</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-upstream(A,C,msg-3)
+sendMsg(A,C,msg-3)
 </panel_attributes>
-    <additional_attributes>250;50;30;50</additional_attributes>
+    <additional_attributes>225;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
-      <x>120</x>
-      <y>270</y>
-      <w>100</w>
-      <h>40</h>
+      <x>18</x>
+      <y>261</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>G-Client C
 available
@@ -181,21 +181,21 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>190</x>
-      <y>260</y>
-      <w>70</w>
-      <h>50</h>
+      <x>81</x>
+      <y>252</y>
+      <w>62</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>30;30;50;30</additional_attributes>
+    <additional_attributes>27;27;45;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.SeqDestroyMark</type>
     <coordinates>
-      <x>690</x>
-      <y>370</y>
-      <w>20</w>
-      <h>20</h>
+      <x>531</x>
+      <y>351</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>fg=red</panel_attributes>
     <additional_attributes/>
@@ -203,10 +203,10 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
-      <x>120</x>
-      <y>480</y>
-      <w>100</w>
-      <h>40</h>
+      <x>18</x>
+      <y>450</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>G-Client C
 available
@@ -216,82 +216,69 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>450</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>423</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-available(C)</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+notifyConnection(C)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>190</x>
-      <y>470</y>
-      <w>70</w>
-      <h>50</h>
+      <x>81</x>
+      <y>441</y>
+      <w>62</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>30;30;50;30</additional_attributes>
+    <additional_attributes>27;27;45;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>420</y>
-      <w>280</w>
-      <h>70</h>
+      <x>306</x>
+      <y>396</y>
+      <w>251</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;
+connect(C,A,slot-id)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>99</x>
+      <y>603</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-connect(C)</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.ReceiveSignal</type>
-    <coordinates>
-      <x>510</x>
-      <y>700</y>
-      <w>100</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Time Slot
-End
-bg=green</panel_attributes>
-    <additional_attributes/>
+notifySlotEnd()</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>650</y>
-      <w>280</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;
-slot-end</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>190</x>
-      <y>670</y>
-      <w>70</w>
-      <h>50</h>
+      <x>81</x>
+      <y>621</y>
+      <w>62</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-
 </panel_attributes>
-    <additional_attributes>30;30;50;30</additional_attributes>
+    <additional_attributes>27;27;45;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
-      <x>120</x>
-      <y>680</y>
-      <w>100</w>
-      <h>40</h>
+      <x>18</x>
+      <y>630</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Slot
 End
@@ -299,36 +286,12 @@ bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>440</x>
-      <y>390</y>
-      <w>70</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>30;30;50;30</additional_attributes>
-  </element>
-  <element>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
-      <x>480</x>
-      <y>400</y>
-      <w>100</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Connection
-Lost
-bg=yellow</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.ReceiveSignal</type>
-    <coordinates>
-      <x>120</x>
-      <y>400</y>
-      <w>100</w>
-      <h>40</h>
+      <x>18</x>
+      <y>378</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Connection
 Error
@@ -338,69 +301,72 @@ bg=orange</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>190</x>
-      <y>390</y>
-      <w>70</w>
-      <h>50</h>
+      <x>81</x>
+      <y>369</y>
+      <w>62</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-
 </panel_attributes>
-    <additional_attributes>30;30;50;30</additional_attributes>
+    <additional_attributes>27;27;45;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>550</x>
-      <y>360</y>
-      <w>160</w>
-      <h>80</h>
+      <x>306</x>
+      <y>342</y>
+      <w>273</w>
+      <h>93</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>30;60;130;60;140;30</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;.
+fg=red
+Connection
+Error</panel_attributes>
+    <additional_attributes>27;54;216;54;225;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>670</x>
-      <y>40</y>
-      <w>50</w>
-      <h>870</h>
+      <x>513</x>
+      <y>54</y>
+      <w>44</w>
+      <h>782</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>30;30;30;850</additional_attributes>
+    <additional_attributes>27;27;27;765</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>310</y>
-      <w>280</w>
-      <h>70</h>
+      <x>306</x>
+      <y>297</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-upstream(A,C,msg-2)
+sendMsg(A,C,msg-2)
 </panel_attributes>
-    <additional_attributes>260;50;30;50</additional_attributes>
+    <additional_attributes>234;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>370</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>351</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-connection lost</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+notifyError("Connection")</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>460</x>
-      <y>470</y>
-      <w>20</w>
-      <h>30</h>
+      <x>324</x>
+      <y>441</y>
+      <w>18</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -408,83 +374,83 @@ connection lost</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>520</y>
-      <w>280</w>
-      <h>70</h>
+      <x>306</x>
+      <y>486</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-downstream(C,A,msg-S1)</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+sendMsg(C,A,msg-S1)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>540</y>
-      <w>280</w>
-      <h>70</h>
+      <x>306</x>
+      <y>504</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-downstream(C,A,msg-S2)</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+sendMsg(C,A,msg-S2)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>540</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>504</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-downstream(C,A,msg-S2)</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+sendMsg(C,A,msg-S2)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>520</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>486</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-downstream(C,A,msg-S1)</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+sendMsg(C,A,msg-S1)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>170</y>
-      <w>270</w>
-      <h>70</h>
+      <x>99</x>
+      <y>171</y>
+      <w>242</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-not available (C)</panel_attributes>
-    <additional_attributes>30;50;250;50</additional_attributes>
+notifyError(C not available)</panel_attributes>
+    <additional_attributes>27;45;225;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>140</y>
-      <w>270</w>
-      <h>70</h>
+      <x>99</x>
+      <y>144</y>
+      <w>242</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-upstream(A,C,msg-1)
+sendMsg(A,C,msg-1)
 </panel_attributes>
-    <additional_attributes>250;50;30;50</additional_attributes>
+    <additional_attributes>225;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>460</x>
-      <y>190</y>
-      <w>20</w>
-      <h>30</h>
+      <x>324</x>
+      <y>189</y>
+      <w>18</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -492,36 +458,36 @@ upstream(A,C,msg-1)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>600</y>
-      <w>280</w>
-      <h>70</h>
+      <x>306</x>
+      <y>558</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
 upstream(A,C,msg-3)
 </panel_attributes>
-    <additional_attributes>260;50;30;50</additional_attributes>
+    <additional_attributes>234;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>600</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>558</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
 upstream(A,C,msg-3)
 </panel_attributes>
-    <additional_attributes>260;50;30;50</additional_attributes>
+    <additional_attributes>234;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.SynchBarVertical</type>
     <coordinates>
-      <x>490</x>
-      <y>690</y>
-      <w>20</w>
-      <h>60</h>
+      <x>351</x>
+      <y>639</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -529,120 +495,181 @@ upstream(A,C,msg-3)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>670</y>
-      <w>80</w>
-      <h>50</h>
+      <x>306</x>
+      <y>621</y>
+      <w>71</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;
 </panel_attributes>
-    <additional_attributes>30;30;60;30</additional_attributes>
+    <additional_attributes>27;27;54;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>710</y>
-      <w>80</w>
-      <h>50</h>
+      <x>306</x>
+      <y>657</y>
+      <w>71</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;
 </panel_attributes>
-    <additional_attributes>30;30;60;30</additional_attributes>
+    <additional_attributes>27;27;54;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>190</x>
-      <y>710</y>
-      <w>70</w>
-      <h>50</h>
+      <x>81</x>
+      <y>657</y>
+      <w>62</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-
 </panel_attributes>
-    <additional_attributes>30;30;50;30</additional_attributes>
+    <additional_attributes>27;27;45;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>690</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>639</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
-    <panel_attributes>lt=&lt;
-connection closed</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;.
+fg=red
+(connection closed)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
-      <x>120</x>
+      <x>18</x>
+      <y>666</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Connection
+Closed
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <coordinates>
+      <x>18</x>
+      <y>108</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>connection
+request
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>99</x>
+      <y>81</y>
+      <w>242</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+connect(A,C,slot-id)
+</panel_attributes>
+    <additional_attributes>225;45;27;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>81</x>
+      <y>99</y>
+      <w>62</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>45;27;27;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>99</x>
+      <y>108</y>
+      <w>242</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+"C not available"</panel_attributes>
+    <additional_attributes>27;45;225;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>324</x>
+      <y>126</y>
+      <w>18</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <coordinates>
+      <x>18</x>
+      <y>729</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>connection
+request
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>99</x>
+      <y>702</y>
+      <w>242</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+connect(A,C,slot-id)
+</panel_attributes>
+    <additional_attributes>225;45;27;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>81</x>
       <y>720</y>
-      <w>100</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Connection
-Closed
-bg=red</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.ReceiveSignal</type>
-    <coordinates>
-      <x>120</x>
-      <y>100</y>
-      <w>100</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>connection
-request
-bg=yellow</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>210</x>
-      <y>70</y>
-      <w>270</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-connect(A,C)
-</panel_attributes>
-    <additional_attributes>250;50;30;50</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>190</x>
-      <y>90</y>
-      <w>70</w>
-      <h>50</h>
+      <w>62</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>50;30;30;30</additional_attributes>
+    <additional_attributes>45;27;27;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>100</y>
-      <w>270</w>
-      <h>70</h>
+      <x>99</x>
+      <y>729</y>
+      <w>242</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-not available(C)</panel_attributes>
-    <additional_attributes>30;50;250;50</additional_attributes>
+"no slot"</panel_attributes>
+    <additional_attributes>27;45;225;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>460</x>
-      <y>120</y>
-      <w>20</w>
-      <h>30</h>
+      <x>324</x>
+      <y>747</y>
+      <w>18</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -650,70 +677,10 @@ not available(C)</panel_attributes>
   <element>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
-      <x>120</x>
-      <y>790</y>
-      <w>100</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>connection
-request
-bg=yellow</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>210</x>
-      <y>760</y>
-      <w>270</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-connect(A,C)
-</panel_attributes>
-    <additional_attributes>250;50;30;50</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>190</x>
-      <y>780</y>
-      <w>70</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>50;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>210</x>
-      <y>790</y>
-      <w>270</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;
-no slot(C)</panel_attributes>
-    <additional_attributes>30;50;250;50</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.SeqObjectActive</type>
-    <coordinates>
-      <x>460</x>
-      <y>810</y>
-      <w>20</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.ReceiveSignal</type>
-    <coordinates>
-      <x>120</x>
-      <y>840</y>
-      <w>100</w>
-      <h>40</h>
+      <x>18</x>
+      <y>774</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Connection
 Closed
@@ -723,45 +690,46 @@ bg=red</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>190</x>
-      <y>830</y>
-      <w>70</w>
-      <h>50</h>
+      <x>81</x>
+      <y>765</y>
+      <w>62</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>30;30;50;30</additional_attributes>
+    <additional_attributes>27;27;45;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>810</y>
-      <w>280</w>
-      <h>70</h>
+      <x>99</x>
+      <y>747</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
-    <panel_attributes>lt=&lt;
-connection closed</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;.
+(connection closed)
+fg=red</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>730</y>
-      <w>280</w>
-      <h>70</h>
+      <x>306</x>
+      <y>675</y>
+      <w>251</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-disconnect(C)</panel_attributes>
-    <additional_attributes>30;50;260;50</additional_attributes>
+endRemote()</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
-      <x>710</x>
-      <y>760</y>
-      <w>100</w>
-      <h>40</h>
+      <x>549</x>
+      <y>702</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>End
 Remote
@@ -771,47 +739,84 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>670</x>
-      <y>750</y>
-      <w>70</w>
-      <h>50</h>
+      <x>513</x>
+      <y>693</y>
+      <w>62</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>30;30;50;30</additional_attributes>
+    <additional_attributes>27;27;45;27</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>500</x>
-      <y>150</y>
-      <w>100</w>
-      <h>40</h>
+      <x>333</x>
+      <y>621</y>
+      <w>116</w>
+      <h>62</h>
     </coordinates>
-    <panel_attributes>Time Slot
-Start
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>27;45;99;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>306</x>
+      <y>126</y>
+      <w>116</w>
+      <h>62</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>99;27;27;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>315</x>
+      <y>234</y>
+      <w>242</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+"A available"</panel_attributes>
+    <additional_attributes>225;45;27;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>306</x>
+      <y>423</y>
+      <w>251</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+"A available"</panel_attributes>
+    <additional_attributes>234;45;27;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.TimeSignal</type>
+    <coordinates>
+      <x>396</x>
+      <y>630</y>
+      <w>72</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>"slot-id"
+end
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.umlet.element.custom.TimeSignal</type>
     <coordinates>
-      <x>470</x>
-      <y>690</y>
-      <w>70</w>
-      <h>50</h>
+      <x>369</x>
+      <y>135</y>
+      <w>72</w>
+      <h>108</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>30;30;50;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>440</x>
-      <y>140</y>
-      <w>90</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>70;30;30;30</additional_attributes>
+    <panel_attributes>"slot-id"
+start
+bg=green</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

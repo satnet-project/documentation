@@ -4,7 +4,7 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>288</x>
+      <x>135</x>
       <y>18</y>
       <w>90</w>
       <h>36</h>
@@ -16,7 +16,7 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>702</x>
+      <x>549</x>
       <y>18</y>
       <w>90</w>
       <h>36</h>
@@ -28,7 +28,7 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>495</x>
+      <x>342</x>
       <y>18</y>
       <w>90</w>
       <h>36</h>
@@ -40,7 +40,7 @@
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>306</x>
+      <x>153</x>
       <y>27</y>
       <w>44</w>
       <h>818</h>
@@ -51,7 +51,7 @@
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>513</x>
+      <x>360</x>
       <y>27</y>
       <w>44</w>
       <h>818</h>
@@ -62,7 +62,7 @@
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>720</x>
+      <x>567</x>
       <y>27</y>
       <w>44</w>
       <h>818</h>
@@ -73,7 +73,7 @@
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>306</x>
+      <x>153</x>
       <y>189</y>
       <w>251</w>
       <h>63</h>
@@ -86,7 +86,7 @@ upstream(A,C,msg-1)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>513</x>
+      <x>360</x>
       <y>189</y>
       <w>242</w>
       <h>63</h>
@@ -99,7 +99,7 @@ upstream(A,C,msg-1)
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>531</x>
+      <x>378</x>
       <y>162</y>
       <w>18</w>
       <h>27</h>
@@ -110,31 +110,31 @@ upstream(A,C,msg-1)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>522</x>
+      <x>369</x>
       <y>117</y>
       <w>242</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-connect(C)</panel_attributes>
+connect(C,A,slot-id)</panel_attributes>
     <additional_attributes>27;45;225;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>306</x>
+      <x>153</x>
       <y>144</y>
       <w>251</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-available(C)</panel_attributes>
+notifyAvailable(C)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>738</x>
+      <x>585</x>
       <y>234</y>
       <w>18</w>
       <h>27</h>
@@ -145,7 +145,7 @@ available(C)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>513</x>
+      <x>360</x>
       <y>216</y>
       <w>242</w>
       <h>63</h>
@@ -158,7 +158,7 @@ sent(A,C,msg-1)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>306</x>
+      <x>153</x>
       <y>207</y>
       <w>251</w>
       <h>63</h>
@@ -171,7 +171,7 @@ upstream(A,C,msg-2)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>513</x>
+      <x>360</x>
       <y>234</y>
       <w>242</w>
       <h>63</h>
@@ -184,7 +184,7 @@ upstream(A,C,msg-2)
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>738</x>
+      <x>585</x>
       <y>279</y>
       <w>18</w>
       <h>27</h>
@@ -195,32 +195,32 @@ upstream(A,C,msg-2)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>513</x>
+      <x>360</x>
       <y>261</y>
       <w>242</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-error(A,C,msg-2)
+notifyError(A,C,msg-2)
 </panel_attributes>
     <additional_attributes>27;45;225;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>306</x>
+      <x>153</x>
       <y>261</y>
       <w>251</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-error(A,C,msg-2)</panel_attributes>
+notifyError(A,C,msg-2)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>306</x>
+      <x>153</x>
       <y>225</y>
       <w>251</w>
       <h>63</h>
@@ -233,7 +233,7 @@ upstream(A,C,msg-3)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>513</x>
+      <x>360</x>
       <y>279</y>
       <w>242</w>
       <h>63</h>
@@ -246,7 +246,7 @@ upstream(A,C,msg-3)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>513</x>
+      <x>360</x>
       <y>306</y>
       <w>242</w>
       <h>63</h>
@@ -259,7 +259,7 @@ sent(A,C,msg-2)
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>738</x>
+      <x>585</x>
       <y>324</y>
       <w>18</w>
       <h>27</h>
@@ -270,7 +270,7 @@ sent(A,C,msg-2)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>306</x>
+      <x>153</x>
       <y>342</y>
       <w>251</w>
       <h>63</h>
@@ -283,7 +283,7 @@ upstream(A,C,msg-4)
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>513</x>
+      <x>360</x>
       <y>342</y>
       <w>242</w>
       <h>63</h>
@@ -296,7 +296,7 @@ upstream(A,C,msg-4)
   <element>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
-      <x>171</x>
+      <x>18</x>
       <y>171</y>
       <w>90</w>
       <h>36</h>
@@ -309,7 +309,7 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>234</x>
+      <x>81</x>
       <y>162</y>
       <w>116</w>
       <h>44</h>
@@ -320,7 +320,7 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.custom.State</type>
     <coordinates>
-      <x>189</x>
+      <x>36</x>
       <y>225</y>
       <w>54</w>
       <h>45</h>
@@ -333,7 +333,7 @@ bg=blue</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>189</x>
+      <x>36</x>
       <y>180</y>
       <w>44</w>
       <h>62</h>
@@ -344,7 +344,7 @@ bg=blue</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>261</x>
+      <x>108</x>
       <y>207</y>
       <w>89</w>
       <h>44</h>
@@ -355,7 +355,7 @@ bg=blue</panel_attributes>
   <element>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
-      <x>171</x>
+      <x>18</x>
       <y>288</y>
       <w>81</w>
       <h>36</h>
@@ -368,7 +368,7 @@ bg=red</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>225</x>
+      <x>72</x>
       <y>279</y>
       <w>125</w>
       <h>44</h>
@@ -379,7 +379,7 @@ bg=red</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>261</x>
+      <x>108</x>
       <y>225</y>
       <w>89</w>
       <h>44</h>
@@ -390,7 +390,7 @@ bg=red</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>261</x>
+      <x>108</x>
       <y>243</y>
       <w>89</w>
       <h>44</h>
@@ -401,7 +401,7 @@ bg=red</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>261</x>
+      <x>108</x>
       <y>261</y>
       <w>89</w>
       <h>143</h>
@@ -412,7 +412,7 @@ bg=red</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SynchBarVertical</type>
     <coordinates>
-      <x>279</x>
+      <x>126</x>
       <y>225</y>
       <w>18</w>
       <h>72</h>
@@ -423,7 +423,7 @@ bg=red</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>216</x>
+      <x>63</x>
       <y>216</y>
       <w>89</w>
       <h>44</h>
@@ -434,7 +434,7 @@ bg=red</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqDestroyMark</type>
     <coordinates>
-      <x>738</x>
+      <x>585</x>
       <y>378</y>
       <w>18</w>
       <h>18</h>
@@ -445,18 +445,7 @@ bg=red</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SynchBarVertical</type>
     <coordinates>
-      <x>279</x>
-      <y>639</y>
-      <w>18</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.SynchBarVertical</type>
-    <coordinates>
-      <x>558</x>
+      <x>405</x>
       <y>405</y>
       <w>18</w>
       <h>63</h>
@@ -464,12 +453,392 @@ bg=red</panel_attributes>
     <panel_attributes/>
     <additional_attributes/>
   </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>360</x>
+      <y>756</y>
+      <w>71</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+</panel_attributes>
+    <additional_attributes>27;27;54;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SynchBarVertical</type>
+    <coordinates>
+      <x>405</x>
+      <y>729</y>
+      <w>18</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <coordinates>
+      <x>432</x>
+      <y>738</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>time slot
+ended
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>387</x>
+      <y>729</y>
+      <w>71</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>27;27;54;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>360</x>
+      <y>711</y>
+      <w>71</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+</panel_attributes>
+    <additional_attributes>27;27;54;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>153</x>
+      <y>693</y>
+      <w>251</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+notifyError(A,C,msg-4)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>153</x>
+      <y>738</y>
+      <w>251</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+slot-end</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>81</x>
+      <y>756</y>
+      <w>116</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+</panel_attributes>
+    <additional_attributes>27;27;99;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>81</x>
+      <y>711</y>
+      <w>116</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>27;27;99;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <coordinates>
+      <x>18</x>
+      <y>720</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Upstream
+Error
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <coordinates>
+      <x>18</x>
+      <y>765</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Slot
+End
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>153</x>
+      <y>414</y>
+      <w>251</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+notifyError(Connection)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>360</x>
+      <y>432</y>
+      <w>71</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+</panel_attributes>
+    <additional_attributes>27;27;54;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>387</x>
+      <y>405</y>
+      <w>71</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>27;27;54;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>360</x>
+      <y>387</y>
+      <w>71</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+</panel_attributes>
+    <additional_attributes>27;27;54;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <coordinates>
+      <x>432</x>
+      <y>414</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>connection
+lost
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>153</x>
+      <y>369</y>
+      <w>251</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+error(A,C,msg-4)</panel_attributes>
+    <additional_attributes>27;45;234;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>81</x>
+      <y>387</y>
+      <w>116</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>27;27;99;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <coordinates>
+      <x>18</x>
+      <y>396</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Upstream
+Error
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <coordinates>
+      <x>18</x>
+      <y>441</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Connection
+Error
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>81</x>
+      <y>432</y>
+      <w>116</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+</panel_attributes>
+    <additional_attributes>27;27;99;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>153</x>
+      <y>72</y>
+      <w>242</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+response(C not available)</panel_attributes>
+    <additional_attributes>27;45;225;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>153</x>
+      <y>45</y>
+      <w>242</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+connect(A,C,slot-id)
+</panel_attributes>
+    <additional_attributes>225;45;27;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>378</x>
+      <y>90</y>
+      <w>18</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>45</x>
+      <y>63</y>
+      <w>152</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>135;27;27;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InitialState</type>
+    <coordinates>
+      <x>54</x>
+      <y>81</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>i</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>495</x>
+      <y>360</y>
+      <w>116</w>
+      <h>89</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>27;72;72;72;99;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>360</x>
+      <y>144</y>
+      <w>251</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;
+response(A available)</panel_attributes>
+    <additional_attributes>234;45;27;45</additional_attributes>
+  </element>
   <group>
+    <element>
+      <type>com.umlet.element.custom.SynchBarVertical</type>
+      <coordinates>
+        <x>126</x>
+        <y>630</y>
+        <w>18</w>
+        <h>54</h>
+      </coordinates>
+      <panel_attributes/>
+      <additional_attributes/>
+    </element>
     <element>
       <type>com.umlet.element.Relation</type>
       <coordinates>
-        <x>306</x>
-        <y>612</y>
+        <x>108</x>
+        <y>621</y>
+        <w>89</w>
+        <h>44</h>
+      </coordinates>
+      <panel_attributes>lt=&lt;-</panel_attributes>
+      <additional_attributes>72;27;27;27</additional_attributes>
+    </element>
+    <element>
+      <type>com.umlet.element.Relation</type>
+      <coordinates>
+        <x>153</x>
+        <y>621</y>
+        <w>251</w>
+        <h>63</h>
+      </coordinates>
+      <panel_attributes>lt=&lt;
+upstream(A,C,msg-4)
+</panel_attributes>
+      <additional_attributes>234;45;27;45</additional_attributes>
+    </element>
+    <element>
+      <type>com.umlet.element.Relation</type>
+      <coordinates>
+        <x>108</x>
+        <y>639</y>
+        <w>89</w>
+        <h>44</h>
+      </coordinates>
+      <panel_attributes>lt=&lt;-</panel_attributes>
+      <additional_attributes>72;27;27;27</additional_attributes>
+    </element>
+    <element>
+      <type>com.umlet.element.Relation</type>
+      <coordinates>
+        <x>153</x>
+        <y>603</y>
         <w>251</w>
         <h>63</h>
       </coordinates>
@@ -481,80 +850,8 @@ upstream(A,C,msg-2)
     <element>
       <type>com.umlet.element.Relation</type>
       <coordinates>
-        <x>306</x>
+        <x>360</x>
         <y>630</y>
-        <w>251</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-upstream(A,C,msg-4)
-</panel_attributes>
-      <additional_attributes>234;45;27;45</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.ReceiveSignal</type>
-      <coordinates>
-        <x>171</x>
-        <y>576</y>
-        <w>90</w>
-        <h>36</h>
-      </coordinates>
-      <panel_attributes>G-Client C
-available
-bg=yellow</panel_attributes>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>306</x>
-        <y>549</y>
-        <w>251</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-available(C)</panel_attributes>
-      <additional_attributes>27;45;234;45</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>234</x>
-        <y>567</y>
-        <w>116</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>27;27;99;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>522</x>
-        <y>522</y>
-        <w>242</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-connect(C)</panel_attributes>
-      <additional_attributes>27;45;225;45</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.SeqObjectActive</type>
-      <coordinates>
-        <x>531</x>
-        <y>567</y>
-        <w>18</w>
-        <h>27</h>
-      </coordinates>
-      <panel_attributes/>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>513</x>
-        <y>639</y>
         <w>242</w>
         <h>63</h>
       </coordinates>
@@ -566,8 +863,8 @@ upstream(A,C,msg-2)
     <element>
       <type>com.umlet.element.Relation</type>
       <coordinates>
-        <x>513</x>
-        <y>666</y>
+        <x>360</x>
+        <y>657</y>
         <w>242</w>
         <h>63</h>
       </coordinates>
@@ -579,8 +876,8 @@ sent(A,C,msg-2)
     <element>
       <type>com.umlet.element.custom.SeqObjectActive</type>
       <coordinates>
-        <x>738</x>
-        <y>684</y>
+        <x>585</x>
+        <y>675</y>
         <w>18</w>
         <h>27</h>
       </coordinates>
@@ -588,10 +885,92 @@ sent(A,C,msg-2)
       <additional_attributes/>
     </element>
     <element>
+      <type>com.umlet.element.Relation</type>
+      <coordinates>
+        <x>369</x>
+        <y>540</y>
+        <w>242</w>
+        <h>63</h>
+      </coordinates>
+      <panel_attributes>lt=&lt;
+response(A available)</panel_attributes>
+      <additional_attributes>225;45;27;45</additional_attributes>
+    </element>
+    <element>
+      <type>com.umlet.element.Relation</type>
+      <coordinates>
+        <x>369</x>
+        <y>513</y>
+        <w>242</w>
+        <h>63</h>
+      </coordinates>
+      <panel_attributes>lt=&lt;
+connect(C,A,slot-id)</panel_attributes>
+      <additional_attributes>27;45;225;45</additional_attributes>
+    </element>
+    <element>
+      <type>com.umlet.element.custom.SeqObjectActive</type>
+      <coordinates>
+        <x>378</x>
+        <y>558</y>
+        <w>18</w>
+        <h>27</h>
+      </coordinates>
+      <panel_attributes/>
+      <additional_attributes/>
+    </element>
+    <element>
+      <type>com.umlet.element.Relation</type>
+      <coordinates>
+        <x>153</x>
+        <y>540</y>
+        <w>251</w>
+        <h>63</h>
+      </coordinates>
+      <panel_attributes>lt=&lt;
+notifyAvailable(C)</panel_attributes>
+      <additional_attributes>27;45;234;45</additional_attributes>
+    </element>
+    <element>
+      <type>com.umlet.element.Relation</type>
+      <coordinates>
+        <x>81</x>
+        <y>558</y>
+        <w>116</w>
+        <h>44</h>
+      </coordinates>
+      <panel_attributes>lt=&lt;-</panel_attributes>
+      <additional_attributes>27;27;99;27</additional_attributes>
+    </element>
+    <element>
+      <type>com.umlet.element.custom.ReceiveSignal</type>
+      <coordinates>
+        <x>18</x>
+        <y>567</y>
+        <w>90</w>
+        <h>36</h>
+      </coordinates>
+      <panel_attributes>G-Client C
+available
+bg=yellow</panel_attributes>
+      <additional_attributes/>
+    </element>
+    <element>
+      <type>com.umlet.element.Relation</type>
+      <coordinates>
+        <x>36</x>
+        <y>576</y>
+        <w>44</w>
+        <h>62</h>
+      </coordinates>
+      <panel_attributes>lt=&lt;-</panel_attributes>
+      <additional_attributes>27;45;27;27</additional_attributes>
+    </element>
+    <element>
       <type>com.umlet.element.custom.State</type>
       <coordinates>
-        <x>189</x>
-        <y>630</y>
+        <x>36</x>
+        <y>621</y>
         <w>54</w>
         <h>54</h>
       </coordinates>
@@ -603,41 +982,8 @@ bg=blue</panel_attributes>
     <element>
       <type>com.umlet.element.Relation</type>
       <coordinates>
-        <x>189</x>
-        <y>585</y>
-        <w>44</w>
-        <h>62</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>27;45;27;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>216</x>
-        <y>630</y>
-        <w>89</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>72;27;27;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>261</x>
-        <y>648</y>
-        <w>89</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>72;27;27;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>261</x>
-        <y>630</y>
+        <x>63</x>
+        <y>621</y>
         <w>89</w>
         <h>44</h>
       </coordinates>
@@ -645,356 +991,4 @@ bg=blue</panel_attributes>
       <additional_attributes>72;27;27;27</additional_attributes>
     </element>
   </group>
-  <group>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>513</x>
-        <y>756</y>
-        <w>71</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-</panel_attributes>
-      <additional_attributes>27;27;54;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.SynchBarVertical</type>
-      <coordinates>
-        <x>558</x>
-        <y>729</y>
-        <w>18</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes/>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.ReceiveSignal</type>
-      <coordinates>
-        <x>585</x>
-        <y>738</y>
-        <w>90</w>
-        <h>36</h>
-      </coordinates>
-      <panel_attributes>time slot
-ended
-bg=yellow</panel_attributes>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>540</x>
-        <y>729</y>
-        <w>71</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>27;27;54;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>513</x>
-        <y>711</y>
-        <w>71</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-</panel_attributes>
-      <additional_attributes>27;27;54;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>306</x>
-        <y>693</y>
-        <w>251</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-error(A,C,msg-4)</panel_attributes>
-      <additional_attributes>27;45;234;45</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>306</x>
-        <y>738</y>
-        <w>251</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-slot-end</panel_attributes>
-      <additional_attributes>27;45;234;45</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>234</x>
-        <y>756</y>
-        <w>116</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-</panel_attributes>
-      <additional_attributes>27;27;99;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>234</x>
-        <y>711</y>
-        <w>116</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>27;27;99;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.ReceiveSignal</type>
-      <coordinates>
-        <x>171</x>
-        <y>720</y>
-        <w>90</w>
-        <h>36</h>
-      </coordinates>
-      <panel_attributes>Upstream
-Error
-bg=red</panel_attributes>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.ReceiveSignal</type>
-      <coordinates>
-        <x>171</x>
-        <y>765</y>
-        <w>90</w>
-        <h>36</h>
-      </coordinates>
-      <panel_attributes>Slot
-End
-bg=green</panel_attributes>
-      <additional_attributes/>
-    </element>
-  </group>
-  <group>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>306</x>
-        <y>414</y>
-        <w>251</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-connection lost</panel_attributes>
-      <additional_attributes>27;45;234;45</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>513</x>
-        <y>432</y>
-        <w>71</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-</panel_attributes>
-      <additional_attributes>27;27;54;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>540</x>
-        <y>405</y>
-        <w>71</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>27;27;54;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>513</x>
-        <y>387</y>
-        <w>71</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-</panel_attributes>
-      <additional_attributes>27;27;54;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.ReceiveSignal</type>
-      <coordinates>
-        <x>585</x>
-        <y>414</y>
-        <w>90</w>
-        <h>36</h>
-      </coordinates>
-      <panel_attributes>connection
-lost
-bg=yellow</panel_attributes>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>306</x>
-        <y>369</y>
-        <w>251</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-error(A,C,msg-4)</panel_attributes>
-      <additional_attributes>27;45;234;45</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>234</x>
-        <y>387</y>
-        <w>116</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>27;27;99;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.ReceiveSignal</type>
-      <coordinates>
-        <x>171</x>
-        <y>396</y>
-        <w>90</w>
-        <h>36</h>
-      </coordinates>
-      <panel_attributes>Upstream
-Error
-bg=red</panel_attributes>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.ReceiveSignal</type>
-      <coordinates>
-        <x>171</x>
-        <y>441</y>
-        <w>90</w>
-        <h>36</h>
-      </coordinates>
-      <panel_attributes>Connection
-Error
-bg=red</panel_attributes>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>234</x>
-        <y>432</y>
-        <w>116</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-</panel_attributes>
-      <additional_attributes>27;27;99;27</additional_attributes>
-    </element>
-  </group>
-  <group>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>306</x>
-        <y>72</y>
-        <w>242</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;
-response(C not available)</panel_attributes>
-      <additional_attributes>27;45;225;45</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>306</x>
-        <y>45</y>
-        <w>242</w>
-        <h>63</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-connect(A,C)
-</panel_attributes>
-      <additional_attributes>225;45;27;45</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.SeqObjectActive</type>
-      <coordinates>
-        <x>531</x>
-        <y>90</y>
-        <w>18</w>
-        <h>27</h>
-      </coordinates>
-      <panel_attributes/>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.ReceiveSignal</type>
-      <coordinates>
-        <x>216</x>
-        <y>72</y>
-        <w>90</w>
-        <h>36</h>
-      </coordinates>
-      <panel_attributes>upstream
-data
-bg=yellow</panel_attributes>
-      <additional_attributes/>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>279</x>
-        <y>63</y>
-        <w>71</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>54;27;27;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.Relation</type>
-      <coordinates>
-        <x>162</x>
-        <y>63</y>
-        <w>80</w>
-        <h>44</h>
-      </coordinates>
-      <panel_attributes>lt=&lt;-</panel_attributes>
-      <additional_attributes>63;27;27;27</additional_attributes>
-    </element>
-    <element>
-      <type>com.umlet.element.custom.InitialState</type>
-      <coordinates>
-        <x>171</x>
-        <y>81</y>
-        <w>18</w>
-        <h>18</h>
-      </coordinates>
-      <panel_attributes>i</panel_attributes>
-      <additional_attributes/>
-    </element>
-  </group>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>648</x>
-      <y>360</y>
-      <w>116</w>
-      <h>89</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>27;72;72;72;99;27</additional_attributes>
-  </element>
 </diagram>

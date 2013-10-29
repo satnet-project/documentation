@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>11</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.InitialState</type>
+    <coordinates>
+      <x>352</x>
+      <y>44</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>i</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>253</x>
+      <y>22</y>
+      <w>120</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>99;33;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ReceiveSignal</type>
+    <coordinates>
+      <x>77</x>
+      <y>33</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Client &lt;A&gt;
+sendMsg(A,C,msg)
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Decision</type>
+    <coordinates>
+      <x>341</x>
+      <y>99</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>330</x>
+      <y>33</y>
+      <w>54</w>
+      <h>87</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>33;66;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>209</x>
+      <y>66</y>
+      <w>153</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+C not
+connected</panel_attributes>
+    <additional_attributes>33;55;132;55</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>33</x>
+      <y>374</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>log
+event
+fg=blue
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>330</x>
+      <y>110</y>
+      <w>54</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;55;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Decision</type>
+    <coordinates>
+      <x>341</x>
+      <y>165</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>209</x>
+      <y>132</y>
+      <w>153</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+slot-id
+ellapsed</panel_attributes>
+    <additional_attributes>33;55;132;55</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.FinalState</type>
+    <coordinates>
+      <x>77</x>
+      <y>440</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>i</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>55</x>
+      <y>385</y>
+      <w>54</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;55;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>110</x>
+      <y>99</y>
+      <w>132</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>response
+"C unavailable"
+fg=black
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>55</x>
+      <y>88</y>
+      <w>76</w>
+      <h>307</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;286;33;33;55;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>110</x>
+      <y>165</y>
+      <w>132</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>response
+"out of time"
+fg=black
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>55</x>
+      <y>154</y>
+      <w>76</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;33;55;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>330</x>
+      <y>176</y>
+      <w>54</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;55;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>297</x>
+      <y>231</y>
+      <w>132</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>C.sendMsg
+(A,C,msg)
+fg=black
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>330</x>
+      <y>242</y>
+      <w>54</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;55;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>297</x>
+      <y>374</y>
+      <w>132</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>A.notifyError
+("Connection")
+fg=black
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>165</x>
+      <y>374</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Close
+Connection
+fg=red
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>110</x>
+      <y>363</y>
+      <w>76</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;33;55;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>242</x>
+      <y>363</y>
+      <w>76</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;33;55;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>308</x>
+      <y>308</y>
+      <w>100</w>
+      <h>87</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Error</panel_attributes>
+    <additional_attributes>55;66;55;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.TimeSignal</type>
+    <coordinates>
+      <x>33</x>
+      <y>517</y>
+      <w>88</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>"slot-id"
+end
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>44</x>
+      <y>506</y>
+      <w>131</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>110;33;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InitialState</type>
+    <coordinates>
+      <x>154</x>
+      <y>528</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>i</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>231</x>
+      <y>517</y>
+      <w>132</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>getClients
+(slot-id)
+fg=black
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>55</x>
+      <y>286</y>
+      <w>307</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;33;187;33;286;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Decision</type>
+    <coordinates>
+      <x>341</x>
+      <y>297</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>22</x>
+      <y>0</y>
+      <w>418</w>
+      <h>473</h>
+    </coordinates>
+    <panel_attributes>Message Exchange
+bg=white
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>253</x>
+      <y>748</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Delete
+Client
+fg=black
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>253</x>
+      <y>814</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>log
+event
+fg=blue
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>253</x>
+      <y>682</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Close
+Connection
+fg=red
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>264</x>
+      <y>528</y>
+      <w>54</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>33;55;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>143</x>
+      <y>506</y>
+      <w>109</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>88;33;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>275</x>
+      <y>693</y>
+      <w>54</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>33;55;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>275</x>
+      <y>759</y>
+      <w>54</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>33;55;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>110</x>
+      <y>693</y>
+      <w>131</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>33;33;110;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.FinalState</type>
+    <coordinates>
+      <x>121</x>
+      <y>715</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>i</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>242</x>
+      <y>616</y>
+      <w>132</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>.notifySlotEnd()
+fg=black
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>275</x>
+      <y>627</y>
+      <w>54</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>33;55;33;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>220</x>
+      <y>583</y>
+      <w>176</w>
+      <h>286</h>
+    </coordinates>
+    <panel_attributes>Erase Clients Loop</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>22</x>
+      <y>484</y>
+      <w>418</w>
+      <h>396</h>
+    </coordinates>
+    <panel_attributes>Slot-end event</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

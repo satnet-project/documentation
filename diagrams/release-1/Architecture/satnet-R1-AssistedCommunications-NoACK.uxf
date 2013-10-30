@@ -74,7 +74,7 @@ bg=black</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(A,C,msg-1)
+sendMsg(C,msg-1)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>
@@ -87,7 +87,7 @@ sendMsg(A,C,msg-1)
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(A,C,msg-1)
+sendMsg(C,msg-1)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>
@@ -111,7 +111,7 @@ sendMsg(A,C,msg-1)
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;
-connect(C,A,slot-id)</panel_attributes>
+connect(A,slot-id)</panel_attributes>
     <additional_attributes>27;45;225;45</additional_attributes>
   </element>
   <element>
@@ -135,7 +135,7 @@ notifyConnection(C)</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(A,C,msg-2)
+sendMsg(C,msg-2)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>
@@ -148,7 +148,7 @@ sendMsg(A,C,msg-2)
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(A,C,msg-3)
+sendMsg(C,msg-3)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>
@@ -161,7 +161,7 @@ sendMsg(A,C,msg-3)
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(A,C,msg-3)
+sendMsg(C,msg-3)
 </panel_attributes>
     <additional_attributes>225;45;27;45</additional_attributes>
   </element>
@@ -245,14 +245,14 @@ notifyConnection(C)</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;
-connect(C,A,slot-id)</panel_attributes>
+connect(A,slot-id)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>99</x>
-      <y>603</y>
+      <y>621</y>
       <w>251</w>
       <h>63</h>
     </coordinates>
@@ -264,7 +264,7 @@ notifySlotEnd()</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>81</x>
-      <y>621</y>
+      <y>639</y>
       <w>62</w>
       <h>44</h>
     </coordinates>
@@ -276,7 +276,7 @@ notifySlotEnd()</panel_attributes>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
       <x>18</x>
-      <y>630</y>
+      <y>648</y>
       <w>90</w>
       <h>36</h>
     </coordinates>
@@ -344,7 +344,7 @@ Error</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(A,C,msg-2)
+sendMsg(C,msg-2)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>
@@ -380,7 +380,7 @@ notifyError("Connection")</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(C,A,msg-S1)</panel_attributes>
+sendMsg(A,msg-S1)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
@@ -392,7 +392,7 @@ sendMsg(C,A,msg-S1)</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(C,A,msg-S2)</panel_attributes>
+sendMsg(A,msg-S2)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
@@ -404,7 +404,7 @@ sendMsg(C,A,msg-S2)</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(C,A,msg-S2)</panel_attributes>
+sendMsg(A,msg-S2)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
@@ -416,7 +416,7 @@ sendMsg(C,A,msg-S2)</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(C,A,msg-S1)</panel_attributes>
+sendMsg(A,msg-S1)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
@@ -440,7 +440,7 @@ notifyError(C not available)</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(A,C,msg-1)
+sendMsg(C,msg-1)
 </panel_attributes>
     <additional_attributes>225;45;27;45</additional_attributes>
   </element>
@@ -459,12 +459,12 @@ sendMsg(A,C,msg-1)
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>306</x>
-      <y>558</y>
+      <y>549</y>
       <w>251</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-upstream(A,C,msg-3)
+sendMsg(C,msg-3)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>
@@ -472,12 +472,12 @@ upstream(A,C,msg-3)
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>99</x>
-      <y>558</y>
+      <y>549</y>
       <w>251</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-upstream(A,C,msg-3)
+sendMsg(C,msg-3)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>
@@ -485,7 +485,7 @@ upstream(A,C,msg-3)
     <type>com.umlet.element.custom.SynchBarVertical</type>
     <coordinates>
       <x>351</x>
-      <y>639</y>
+      <y>657</y>
       <w>18</w>
       <h>54</h>
     </coordinates>
@@ -496,7 +496,7 @@ upstream(A,C,msg-3)
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>306</x>
-      <y>621</y>
+      <y>639</y>
       <w>71</w>
       <h>44</h>
     </coordinates>
@@ -508,7 +508,7 @@ upstream(A,C,msg-3)
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>306</x>
-      <y>657</y>
+      <y>675</y>
       <w>71</w>
       <h>44</h>
     </coordinates>
@@ -520,7 +520,7 @@ upstream(A,C,msg-3)
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>81</x>
-      <y>657</y>
+      <y>675</y>
       <w>62</w>
       <h>44</h>
     </coordinates>
@@ -532,7 +532,7 @@ upstream(A,C,msg-3)
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>99</x>
-      <y>639</y>
+      <y>657</y>
       <w>251</w>
       <h>63</h>
     </coordinates>
@@ -545,7 +545,7 @@ fg=red
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
       <x>18</x>
-      <y>666</y>
+      <y>684</y>
       <w>90</w>
       <h>36</h>
     </coordinates>
@@ -576,7 +576,7 @@ bg=yellow</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-connect(A,C,slot-id)
+connect(C,slot-id)
 </panel_attributes>
     <additional_attributes>225;45;27;45</additional_attributes>
   </element>
@@ -636,7 +636,7 @@ bg=yellow</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-connect(A,C,slot-id)
+connect(C,slot-id)
 </panel_attributes>
     <additional_attributes>225;45;27;45</additional_attributes>
   </element>
@@ -660,7 +660,7 @@ connect(A,C,slot-id)
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-"no slot"</panel_attributes>
+"slot ended"</panel_attributes>
     <additional_attributes>27;45;225;45</additional_attributes>
   </element>
   <element>
@@ -715,7 +715,7 @@ fg=red</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>306</x>
-      <y>675</y>
+      <y>585</y>
       <w>251</w>
       <h>63</h>
     </coordinates>
@@ -727,7 +727,7 @@ endRemote()</panel_attributes>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
       <x>549</x>
-      <y>702</y>
+      <y>612</y>
       <w>90</w>
       <h>36</h>
     </coordinates>
@@ -740,7 +740,7 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>513</x>
-      <y>693</y>
+      <y>603</y>
       <w>62</w>
       <h>44</h>
     </coordinates>
@@ -751,7 +751,7 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>333</x>
-      <y>621</y>
+      <y>639</y>
       <w>116</w>
       <h>62</h>
     </coordinates>
@@ -762,7 +762,7 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>306</x>
-      <y>126</y>
+      <y>72</y>
       <w>116</w>
       <h>62</h>
     </coordinates>
@@ -797,7 +797,7 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.custom.TimeSignal</type>
     <coordinates>
       <x>396</x>
-      <y>630</y>
+      <y>648</y>
       <w>72</w>
       <h>108</h>
     </coordinates>
@@ -810,7 +810,7 @@ bg=green</panel_attributes>
     <type>com.umlet.element.custom.TimeSignal</type>
     <coordinates>
       <x>369</x>
-      <y>135</y>
+      <y>81</y>
       <w>72</w>
       <h>108</h>
     </coordinates>

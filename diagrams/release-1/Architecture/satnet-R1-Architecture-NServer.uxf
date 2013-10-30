@@ -5,7 +5,7 @@
     <type>com.umlet.element.custom.Database</type>
     <coordinates>
       <x>470</x>
-      <y>20</y>
+      <y>10</y>
       <w>100</w>
       <h>110</h>
     </coordinates>
@@ -95,12 +95,12 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>490</x>
-      <y>100</y>
+      <y>90</y>
       <w>50</w>
-      <h>120</h>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;100;30;30</additional_attributes>
+    <additional_attributes>30;110;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
@@ -167,11 +167,12 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
       <x>150</x>
-      <y>140</y>
+      <y>130</y>
       <w>460</w>
-      <h>310</h>
+      <h>320</h>
     </coordinates>
-    <panel_attributes>**Django MVC Framework on Apache**</panel_attributes>
+    <panel_attributes>**WebServices**
+(Django Framework + Apache)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -338,8 +339,8 @@ bg=green</panel_attributes>
     <panel_attributes>
  
  
-**client-IF*
-(daemon)
+**Daemon*
+(application)
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
@@ -439,11 +440,12 @@ bg=orange</panel_attributes>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
       <x>160</x>
-      <y>600</y>
+      <y>590</y>
       <w>430</w>
-      <h>150</h>
+      <h>160</h>
     </coordinates>
-    <panel_attributes>*Python Daemon (Debian)*
+    <panel_attributes>*Client-IF Daemon*
+(daemon protocol)
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>

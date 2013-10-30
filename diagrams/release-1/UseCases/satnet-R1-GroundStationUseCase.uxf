@@ -4,7 +4,7 @@
   <element>
     <type>com.umlet.element.Actor</type>
     <coordinates>
-      <x>60</x>
+      <x>0</x>
       <y>330</y>
       <w>100</w>
       <h>160</h>
@@ -16,7 +16,7 @@
   <element>
     <type>com.umlet.element.Actor</type>
     <coordinates>
-      <x>490</x>
+      <x>430</x>
       <y>130</y>
       <w>100</w>
       <h>140</h>
@@ -29,7 +29,7 @@ Operator
   <element>
     <type>com.umlet.element.Package</type>
     <coordinates>
-      <x>180</x>
+      <x>120</x>
       <y>50</y>
       <w>290</w>
       <h>160</h>
@@ -41,7 +41,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>360</x>
+      <x>300</x>
       <y>80</y>
       <w>150</w>
       <h>110</h>
@@ -53,7 +53,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>340</x>
+      <x>280</x>
       <y>140</y>
       <w>120</w>
       <h>60</h>
@@ -67,7 +67,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>430</x>
+      <x>370</x>
       <y>140</y>
       <w>100</w>
       <h>50</h>
@@ -78,7 +78,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>200</x>
+      <x>140</x>
       <y>140</y>
       <w>120</w>
       <h>60</h>
@@ -92,7 +92,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>170</x>
+      <x>110</x>
       <y>10</y>
       <w>310</w>
       <h>570</h>
@@ -104,7 +104,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>200</x>
+      <x>140</x>
       <y>250</y>
       <w>120</w>
       <h>50</h>
@@ -118,7 +118,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Package</type>
     <coordinates>
-      <x>180</x>
+      <x>120</x>
       <y>220</y>
       <w>290</w>
       <h>90</h>
@@ -130,7 +130,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>340</x>
+      <x>280</x>
       <y>260</y>
       <w>120</w>
       <h>40</h>
@@ -143,7 +143,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>430</x>
+      <x>370</x>
       <y>140</y>
       <w>100</w>
       <h>160</h>
@@ -154,7 +154,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>270</x>
+      <x>210</x>
       <y>350</y>
       <w>120</w>
       <h>80</h>
@@ -168,7 +168,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>270</x>
+      <x>210</x>
       <y>90</y>
       <w>120</w>
       <h>40</h>
@@ -183,7 +183,7 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>110</x>
+      <x>50</x>
       <y>80</y>
       <w>180</w>
       <h>290</h>
@@ -194,7 +194,7 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>130</x>
+      <x>70</x>
       <y>140</y>
       <w>90</w>
       <h>50</h>
@@ -205,7 +205,7 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>130</x>
+      <x>70</x>
       <y>250</y>
       <w>90</w>
       <h>50</h>
@@ -216,7 +216,7 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>110</x>
+      <x>50</x>
       <y>360</y>
       <w>180</w>
       <h>50</h>
@@ -227,7 +227,7 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Package</type>
     <coordinates>
-      <x>180</x>
+      <x>120</x>
       <y>450</y>
       <w>290</w>
       <h>120</h>
@@ -239,7 +239,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Package</type>
     <coordinates>
-      <x>180</x>
+      <x>120</x>
       <y>320</y>
       <w>290</w>
       <h>120</h>
@@ -251,7 +251,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.UseCase</type>
     <coordinates>
-      <x>270</x>
+      <x>210</x>
       <y>480</y>
       <w>120</w>
       <h>80</h>
@@ -266,7 +266,7 @@ fg=black</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>110</x>
+      <x>50</x>
       <y>380</y>
       <w>180</w>
       <h>160</h>

@@ -287,17 +287,6 @@ in progress"</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>378</x>
-      <y>324</y>
-      <w>36</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>-297;504;-297;504</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
       <x>270</x>
       <y>342</y>
       <w>134</w>
@@ -353,17 +342,6 @@ Accepted</panel_attributes>
 Event
 fg=blue</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>72</x>
-      <y>900</y>
-      <w>27</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>9;-72;9;-90</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.State</type>
@@ -488,7 +466,7 @@ User "data"</panel_attributes>
       <w>387</w>
       <h>567</h>
     </coordinates>
-    <panel_attributes>User Unregistration
+    <panel_attributes>Register + Notification
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -666,7 +644,7 @@ fg=blue</panel_attributes>
       <w>387</w>
       <h>234</h>
     </coordinates>
-    <panel_attributes>User Unregistration
+    <panel_attributes>Unregiste
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>

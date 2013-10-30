@@ -43,7 +43,7 @@
       <h>40</h>
     </coordinates>
     <panel_attributes>(M|G)-Operator
-showSlots(&lt;i&gt;)
+viewSlots(&lt;i&gt;)
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
@@ -105,7 +105,7 @@ authentic.</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>read &lt;i&gt;
-booked Slots
+Slots
 from DB</panel_attributes>
     <additional_attributes/>
   </element>
@@ -235,7 +235,6 @@ fg=blue</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>show
-Booked
 Slots</panel_attributes>
     <additional_attributes/>
   </element>
@@ -275,7 +274,7 @@ fg=black</panel_attributes>
       <w>450</w>
       <h>420</h>
     </coordinates>
-    <panel_attributes>Booked Slots View (SC|GS)
+    <panel_attributes>View Slots (SC|GS)
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>

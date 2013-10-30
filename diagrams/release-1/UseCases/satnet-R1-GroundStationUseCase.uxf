@@ -256,9 +256,9 @@ fg=black</panel_attributes>
       <w>120</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>GS Consult
-Operation
-Reservations
+    <panel_attributes>View
+Reserved
+Slots
 bg=green
 fg=black</panel_attributes>
     <additional_attributes/>

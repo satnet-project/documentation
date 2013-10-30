@@ -219,7 +219,7 @@ bg=white</panel_attributes>
     <panel_attributes>C.sendMsg
 (A,C,msg)
 fg=black
-bg=white</panel_attributes>
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -245,7 +245,7 @@ bg=white</panel_attributes>
     <panel_attributes>A.notifyError
 ("Connection")
 fg=black
-bg=white</panel_attributes>
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -289,14 +289,14 @@ bg=white</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>308</x>
+      <x>264</x>
       <y>308</y>
-      <w>100</w>
+      <w>184</w>
       <h>87</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Error</panel_attributes>
-    <additional_attributes>55;66;55;33</additional_attributes>
+Connection Lost</panel_attributes>
+    <additional_attributes>99;66;99;33</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.TimeSignal</type>
@@ -500,7 +500,8 @@ bg=white</panel_attributes>
       <w>132</w>
       <h>44</h>
     </coordinates>
-    <panel_attributes>.notifySlotEnd()
+    <panel_attributes>Notify Slot
+End
 fg=black
 bg=white</panel_attributes>
     <additional_attributes/>

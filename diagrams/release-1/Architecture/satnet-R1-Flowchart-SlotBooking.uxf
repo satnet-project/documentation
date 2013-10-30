@@ -9,7 +9,7 @@
       <w>120</w>
       <h>32</h>
     </coordinates>
-    <panel_attributes>M-Client
+    <panel_attributes>M-Operator
 selectSlots(sc-A)
 bg=yellow</panel_attributes>
     <additional_attributes/>
@@ -367,7 +367,7 @@ fg=blue</panel_attributes>
       <w>152</w>
       <h>32</h>
     </coordinates>
-    <panel_attributes>M-Client
+    <panel_attributes>M-Operator
 bookSlots(sc-A,slots)
 bg=yellow</panel_attributes>
     <additional_attributes/>
@@ -410,7 +410,7 @@ fg=black</panel_attributes>
       <w>368</w>
       <h>432</h>
     </coordinates>
-    <panel_attributes>Slot Booking - Selection
+    <panel_attributes>Book Operation Slots - Selection
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -717,7 +717,7 @@ in DB</panel_attributes>
       <w>368</w>
       <h>352</h>
     </coordinates>
-    <panel_attributes>Slot Booking - Confirmation
+    <panel_attributes>Book Operation Slots - Confirm
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>

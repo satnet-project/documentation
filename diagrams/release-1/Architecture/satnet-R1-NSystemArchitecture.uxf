@@ -2,20 +2,6 @@
 <diagram program="umlet" version="12.1">
   <zoom_level>10</zoom_level>
   <element>
-    <type>com.umlet.element.custom.Component</type>
-    <coordinates>
-      <x>170</x>
-      <y>350</y>
-      <w>70</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes> 
- 
-**M-Web*
-(views)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <type>com.umlet.element.custom.Database</type>
     <coordinates>
       <x>470</x>
@@ -24,14 +10,16 @@
       <h>110</h>
     </coordinates>
     <panel_attributes>NetworkDB
-(MySQL)</panel_attributes>
+(MySQL)
+bg=yellow
+fg=black</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>60</x>
-      <y>220</y>
+      <y>280</y>
       <w>130</w>
       <h>50</h>
     </coordinates>
@@ -42,21 +30,22 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>170</x>
-      <y>240</y>
+      <y>290</y>
       <w>70</w>
-      <h>90</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes> 
  
-**G-Web*
-(views)</panel_attributes>
+**Web*
+(views)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>60</x>
-      <y>330</y>
+      <y>360</y>
       <w>130</w>
       <h>50</h>
     </coordinates>
@@ -67,38 +56,40 @@
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>210</x>
-      <y>170</y>
+      <y>180</y>
       <w>100</w>
-      <h>40</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>bt=*
 Django
-Templates </panel_attributes>
+Templates
+and Apps
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>180</x>
-      <y>180</y>
+      <x>200</x>
+      <y>210</y>
       <w>150</w>
-      <h>90</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>80;30;80;70;60;70</additional_attributes>
+    <additional_attributes>80;30;80;90;40;90</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>180</x>
-      <y>180</y>
+      <x>200</x>
+      <y>210</y>
       <w>150</w>
-      <h>200</h>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>80;30;80;180;60;180</additional_attributes>
+    <additional_attributes>80;30;80;150;40;150</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -120,7 +111,8 @@ Templates </panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=*
-Python DB API</panel_attributes>
+Python DB API
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -132,7 +124,8 @@ Python DB API</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=*
-Django Models</panel_attributes>
+Django Models
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -150,24 +143,24 @@ Django Models</panel_attributes>
     <type>com.umlet.element.Actor</type>
     <coordinates>
       <x>10</x>
-      <y>200</y>
+      <y>250</y>
       <w>100</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>G-Operator
-(Human)</panel_attributes>
+*(Human)*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Actor</type>
     <coordinates>
       <x>10</x>
-      <y>320</y>
+      <y>370</y>
       <w>100</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>M-Operator
-(Human)</panel_attributes>
+*(Human)*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -175,10 +168,10 @@ Django Models</panel_attributes>
     <coordinates>
       <x>150</x>
       <y>140</y>
-      <w>450</w>
+      <w>460</w>
       <h>310</h>
     </coordinates>
-    <panel_attributes>Django MVC Framework on Apache</panel_attributes>
+    <panel_attributes>**Django MVC Framework on Apache**</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -195,18 +188,8 @@ Django Models</panel_attributes>
 
 **SATNet DB*
 **Model*
-(library)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.Systemborder</type>
-    <coordinates>
-      <x>160</x>
-      <y>510</y>
-      <w>430</w>
-      <h>150</h>
-    </coordinates>
-    <panel_attributes>Python Daemon on Debian</panel_attributes>
+(library)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -221,7 +204,8 @@ Django Models</panel_attributes>
  
  
 **Controllers*
-(library)</panel_attributes>
+(library)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -262,18 +246,18 @@ Django Models</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>210</x>
-      <y>280</y>
+      <y>300</y>
       <w>180</w>
-      <h>110</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;(</panel_attributes>
-    <additional_attributes>160;90;160;30;30;30</additional_attributes>
+    <additional_attributes>160;70;160;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>60</x>
-      <y>530</y>
+      <y>620</y>
       <w>130</w>
       <h>50</h>
     </coordinates>
@@ -284,20 +268,21 @@ Django Models</panel_attributes>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
       <x>170</x>
-      <y>550</y>
+      <y>640</y>
       <w>90</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>center:Twisted
 RPC
-(AMP)</panel_attributes>
+(AMP)
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>60</x>
-      <y>610</y>
+      <y>700</y>
       <w>130</w>
       <h>50</h>
     </coordinates>
@@ -308,7 +293,7 @@ RPC
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>320</x>
-      <y>550</y>
+      <y>640</y>
       <w>100</w>
       <h>100</h>
     </coordinates>
@@ -316,7 +301,8 @@ RPC
  
  
 **Callbacks*
-(library)</panel_attributes>
+(library)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -325,16 +311,16 @@ RPC
       <x>340</x>
       <y>380</y>
       <w>50</w>
-      <h>190</h>
+      <h>280</h>
     </coordinates>
     <panel_attributes>lt=&lt;(</panel_attributes>
-    <additional_attributes>30;30;30;170</additional_attributes>
+    <additional_attributes>30;30;30;260</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>230</x>
-      <y>570</y>
+      <y>660</y>
       <w>110</w>
       <h>50</h>
     </coordinates>
@@ -345,7 +331,7 @@ RPC
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>480</x>
-      <y>550</y>
+      <y>640</y>
       <w>100</w>
       <h>100</h>
     </coordinates>
@@ -353,14 +339,15 @@ RPC
  
  
 **client-IF*
-(daemon)</panel_attributes>
+(daemon)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>390</x>
-      <y>570</y>
+      <y>660</y>
       <w>110</w>
       <h>50</h>
     </coordinates>
@@ -371,24 +358,93 @@ RPC
     <type>com.umlet.element.Actor</type>
     <coordinates>
       <x>10</x>
-      <y>620</y>
+      <y>710</y>
       <w>100</w>
-      <h>120</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>M-Client
-(Software)</panel_attributes>
+(Software)
+*(Software)*
+bg=blue
+fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Actor</type>
     <coordinates>
       <x>10</x>
-      <y>500</y>
+      <y>590</y>
       <w>100</w>
-      <h>120</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>G-Client
-(Software)</panel_attributes>
+*(Software)*
+bg=red
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Actor</type>
+    <coordinates>
+      <x>10</x>
+      <y>90</y>
+      <w>100</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>N-System
+Operator
+*(Human)*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>50</x>
+      <y>100</y>
+      <w>180</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=())</panel_attributes>
+    <additional_attributes>30;30;80;30;80;160;160;160;160;190</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>390</x>
+      <y>470</y>
+      <w>200</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>*Note*
+The 
+"SATNet DB Model library"
+must be shared between 
+the web applications and
+the daemon.
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>450</x>
+      <y>380</y>
+      <w>50</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Systemborder</type>
+    <coordinates>
+      <x>160</x>
+      <y>600</y>
+      <w>430</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>*Python Daemon (Debian)*
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

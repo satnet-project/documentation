@@ -5,9 +5,9 @@
     <type>com.umlet.element.custom.Database</type>
     <coordinates>
       <x>470</x>
-      <y>10</y>
+      <y>30</y>
       <w>100</w>
-      <h>110</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>NetworkDB
 (MySQL)
@@ -19,19 +19,19 @@ fg=black</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>60</x>
-      <y>280</y>
-      <w>130</w>
+      <y>300</y>
+      <w>150</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;110;30</additional_attributes>
+    <additional_attributes>130;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>170</x>
+      <x>190</x>
       <y>290</y>
-      <w>70</w>
+      <w>80</w>
       <h>110</h>
     </coordinates>
     <panel_attributes> 
@@ -46,67 +46,54 @@ bg=green</panel_attributes>
     <coordinates>
       <x>60</x>
       <y>360</y>
-      <w>130</w>
+      <w>150</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;110;30</additional_attributes>
+    <additional_attributes>130;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>210</x>
-      <y>180</y>
+      <x>180</x>
+      <y>190</y>
       <w>100</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>bt=*
 Django
-Templates
-and Apps
+Framework
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>200</x>
-      <y>210</y>
+      <x>150</x>
+      <y>220</y>
       <w>150</w>
-      <h>110</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>80;30;80;90;40;90</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>200</x>
-      <y>210</y>
-      <w>150</w>
-      <h>170</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>80;30;80;150;40;150</additional_attributes>
+    <additional_attributes>80;30;80;70</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>490</x>
-      <y>90</y>
+      <y>60</y>
       <w>50</w>
-      <h>130</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;110;30;30</additional_attributes>
+    <additional_attributes>30;30;30;90</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>460</x>
-      <y>200</y>
+      <y>150</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
@@ -119,7 +106,7 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>460</x>
-      <y>230</y>
+      <y>180</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
@@ -132,12 +119,12 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>490</x>
-      <y>230</y>
+      <y>180</y>
       <w>50</w>
-      <h>120</h>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;100;30;30</additional_attributes>
+    <additional_attributes>30;30;30;150</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Actor</type>
@@ -166,10 +153,10 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
-      <x>150</x>
-      <y>130</y>
-      <w>460</w>
-      <h>320</h>
+      <x>160</x>
+      <y>100</y>
+      <w>450</w>
+      <h>350</h>
     </coordinates>
     <panel_attributes>**WebServices**
 (Django Framework + Apache)</panel_attributes>
@@ -197,7 +184,7 @@ bg=green</panel_attributes>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>320</x>
-      <y>210</y>
+      <y>260</y>
       <w>100</w>
       <h>90</h>
     </coordinates>
@@ -224,51 +211,40 @@ bg=green</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
+      <x>240</x>
       <y>360</y>
-      <w>160</w>
+      <w>130</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;(</panel_attributes>
-    <additional_attributes>140;30;30;30</additional_attributes>
+    <additional_attributes>110;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>340</x>
-      <y>270</y>
+      <y>320</y>
       <w>50</w>
-      <h>120</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;(</panel_attributes>
-    <additional_attributes>30;100;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>210</x>
-      <y>300</y>
-      <w>180</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;(</panel_attributes>
-    <additional_attributes>160;70;160;30;30;30</additional_attributes>
+    <additional_attributes>30;50;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>60</x>
       <y>620</y>
-      <w>130</w>
+      <w>140</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;30;30;110;30</additional_attributes>
+    <additional_attributes>120;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
-      <x>170</x>
+      <x>180</x>
       <y>640</y>
       <w>90</w>
       <h>100</h>
@@ -284,11 +260,11 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>60</x>
       <y>700</y>
-      <w>130</w>
+      <w>140</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;30;30;110;30</additional_attributes>
+    <additional_attributes>120;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.Component</type>
@@ -320,13 +296,13 @@ bg=green</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>230</x>
+      <x>240</x>
       <y>660</y>
-      <w>110</w>
+      <w>100</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;90;30</additional_attributes>
+    <additional_attributes>30;30;80;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.Component</type>
@@ -359,7 +335,7 @@ bg=green</panel_attributes>
     <type>com.umlet.element.Actor</type>
     <coordinates>
       <x>10</x>
-      <y>710</y>
+      <y>700</y>
       <w>100</w>
       <h>140</h>
     </coordinates>
@@ -374,7 +350,7 @@ fg=blue</panel_attributes>
     <type>com.umlet.element.Actor</type>
     <coordinates>
       <x>10</x>
-      <y>590</y>
+      <y>580</y>
       <w>100</w>
       <h>140</h>
     </coordinates>
@@ -400,13 +376,13 @@ Operator
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>50</x>
-      <y>100</y>
-      <w>180</w>
-      <h>210</h>
+      <x>60</x>
+      <y>120</y>
+      <w>150</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;80;30;80;160;160;160;160;190</additional_attributes>
+    <additional_attributes>130;180;70;180;70;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Note</type>
@@ -426,27 +402,51 @@ bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>450</x>
-      <y>380</y>
-      <w>50</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;.</panel_attributes>
-    <additional_attributes>30;30;30;100</additional_attributes>
-  </element>
-  <element>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
       <x>160</x>
       <y>590</y>
-      <w>430</w>
+      <w>440</w>
       <h>160</h>
     </coordinates>
     <panel_attributes>*Client-IF Daemon*
 (daemon protocol)
 bg=white</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>250</x>
+      <y>150</y>
+      <w>190</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>30;50;120;50;120;110</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>450</x>
+      <y>390</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>250</x>
+      <y>190</y>
+      <w>300</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>30;50;230;50;230;140</additional_attributes>
   </element>
 </diagram>

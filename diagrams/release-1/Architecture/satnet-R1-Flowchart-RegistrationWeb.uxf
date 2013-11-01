@@ -104,32 +104,21 @@ fg=red</panel_attributes>
       <x>108</x>
       <y>99</y>
       <w>125</w>
-      <h>224</h>
+      <h>395</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>27;207;27;27;108;27</additional_attributes>
+    <additional_attributes>27;378;27;27;108;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.FinalState</type>
     <coordinates>
-      <x>144</x>
-      <y>558</y>
+      <x>126</x>
+      <y>531</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
     <panel_attributes>i</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>144</x>
-      <y>495</y>
-      <w>80</w>
-      <h>62</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>27;45;27;27;63;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -300,13 +289,13 @@ Accepted</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>270</x>
+      <x>153</x>
       <y>378</y>
-      <w>152</w>
-      <h>161</h>
+      <w>269</w>
+      <h>134</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>27;144;135;144;135;27</additional_attributes>
+    <additional_attributes>27;117;252;117;252;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -347,7 +336,7 @@ fg=blue</panel_attributes>
     <type>com.umlet.element.custom.State</type>
     <coordinates>
       <x>90</x>
-      <y>306</y>
+      <y>477</y>
       <w>90</w>
       <h>36</h>
     </coordinates>
@@ -355,30 +344,6 @@ fg=blue</panel_attributes>
 Event
 fg=blue</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.State</type>
-    <coordinates>
-      <x>207</x>
-      <y>504</y>
-      <w>90</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>log
-Event
-fg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>108</x>
-      <y>315</y>
-      <w>44</w>
-      <h>242</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>27;225;27;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -394,8 +359,8 @@ fg=blue</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>126</x>
-      <y>513</y>
+      <x>108</x>
+      <y>486</y>
       <w>44</w>
       <h>62</h>
     </coordinates>
@@ -420,21 +385,10 @@ User "data"</panel_attributes>
       <x>225</x>
       <y>450</y>
       <w>44</w>
-      <h>71</h>
+      <h>62</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>27;54;27;27</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.SynchBarHorizontal</type>
-    <coordinates>
-      <x>117</x>
-      <y>531</y>
-      <w>72</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
+    <additional_attributes>27;45;27;45;27;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -464,7 +418,7 @@ User "data"</panel_attributes>
       <x>81</x>
       <y>18</y>
       <w>396</w>
-      <h>567</h>
+      <h>540</h>
     </coordinates>
     <panel_attributes>Register + Notification
 bg=white</panel_attributes>
@@ -474,7 +428,7 @@ bg=white</panel_attributes>
     <type>com.umlet.element.custom.ReceiveSignal</type>
     <coordinates>
       <x>153</x>
-      <y>621</y>
+      <y>594</y>
       <w>117</w>
       <h>36</h>
     </coordinates>
@@ -487,7 +441,7 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.custom.State</type>
     <coordinates>
       <x>189</x>
-      <y>684</y>
+      <y>657</y>
       <w>90</w>
       <h>54</h>
     </coordinates>
@@ -501,7 +455,7 @@ fg=red</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>252</x>
-      <y>666</y>
+      <y>639</y>
       <w>125</w>
       <h>84</h>
     </coordinates>
@@ -514,7 +468,7 @@ found</panel_attributes>
     <type>com.umlet.element.custom.Decision</type>
     <coordinates>
       <x>360</x>
-      <y>693</y>
+      <y>666</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -525,7 +479,7 @@ found</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>351</x>
-      <y>621</y>
+      <y>594</y>
       <w>44</w>
       <h>89</h>
     </coordinates>
@@ -536,7 +490,7 @@ found</panel_attributes>
     <type>com.umlet.element.custom.InitialState</type>
     <coordinates>
       <x>369</x>
-      <y>630</y>
+      <y>603</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -547,7 +501,7 @@ found</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>243</x>
-      <y>612</y>
+      <y>585</y>
       <w>143</w>
       <h>44</h>
     </coordinates>
@@ -558,7 +512,7 @@ found</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>351</x>
-      <y>702</y>
+      <y>675</y>
       <w>44</w>
       <h>62</h>
     </coordinates>
@@ -569,7 +523,7 @@ found</panel_attributes>
     <type>com.umlet.element.custom.State</type>
     <coordinates>
       <x>333</x>
-      <y>747</y>
+      <y>720</y>
       <w>90</w>
       <h>36</h>
     </coordinates>
@@ -581,7 +535,7 @@ User "data"</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>189</x>
-      <y>738</y>
+      <y>711</y>
       <w>161</w>
       <h>44</h>
     </coordinates>
@@ -592,7 +546,7 @@ User "data"</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>144</x>
-      <y>684</y>
+      <y>657</y>
       <w>62</w>
       <h>80</h>
     </coordinates>
@@ -603,7 +557,7 @@ User "data"</panel_attributes>
     <type>com.umlet.element.custom.State</type>
     <coordinates>
       <x>126</x>
-      <y>747</y>
+      <y>720</y>
       <w>90</w>
       <h>36</h>
     </coordinates>
@@ -616,7 +570,7 @@ fg=blue</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>144</x>
-      <y>756</y>
+      <y>729</y>
       <w>44</w>
       <h>62</h>
     </coordinates>
@@ -627,7 +581,7 @@ fg=blue</panel_attributes>
     <type>com.umlet.element.custom.FinalState</type>
     <coordinates>
       <x>162</x>
-      <y>801</y>
+      <y>774</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -638,7 +592,7 @@ fg=blue</panel_attributes>
     <type>com.umlet.element.Package</type>
     <coordinates>
       <x>81</x>
-      <y>594</y>
+      <y>567</y>
       <w>387</w>
       <h>234</h>
     </coordinates>

@@ -4,7 +4,7 @@
   <element>
     <type>com.umlet.element.custom.Database</type>
     <coordinates>
-      <x>470</x>
+      <x>460</x>
       <y>30</y>
       <w>100</w>
       <h>60</h>
@@ -20,24 +20,24 @@ fg=black</panel_attributes>
     <coordinates>
       <x>60</x>
       <y>300</y>
-      <w>150</w>
+      <w>160</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>130;30;30;30</additional_attributes>
+    <additional_attributes>140;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>190</x>
+      <x>200</x>
       <y>290</y>
-      <w>80</w>
+      <w>100</w>
       <h>110</h>
     </coordinates>
     <panel_attributes> 
  
-**Web*
-(views)
+**Django*
+**Apps*
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
@@ -46,19 +46,19 @@ bg=green</panel_attributes>
     <coordinates>
       <x>60</x>
       <y>360</y>
-      <w>150</w>
+      <w>160</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>130;30;30;30</additional_attributes>
+    <additional_attributes>140;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>180</x>
-      <y>190</y>
-      <w>100</w>
-      <h>60</h>
+      <x>250</x>
+      <y>160</y>
+      <w>140</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>bt=*
 Django
@@ -69,19 +69,19 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>150</x>
-      <y>220</y>
-      <w>150</w>
-      <h>90</h>
+      <x>200</x>
+      <y>180</y>
+      <w>160</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>80;30;80;70</additional_attributes>
+    <additional_attributes>120;30;120;70;50;70;40;110</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>490</x>
+      <x>480</x>
       <y>60</y>
       <w>50</w>
       <h>110</h>
@@ -92,7 +92,7 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>460</x>
+      <x>450</x>
       <y>150</y>
       <w>130</w>
       <h>30</h>
@@ -105,7 +105,7 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>460</x>
+      <x>450</x>
       <y>180</y>
       <w>130</w>
       <h>30</h>
@@ -118,13 +118,13 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>490</x>
+      <x>440</x>
       <y>180</y>
-      <w>50</w>
-      <h>170</h>
+      <w>100</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;30;150</additional_attributes>
+    <additional_attributes>80;30;80;160;30;160</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Actor</type>
@@ -153,9 +153,9 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
-      <x>160</x>
+      <x>180</x>
       <y>100</y>
-      <w>450</w>
+      <w>420</w>
       <h>350</h>
     </coordinates>
     <panel_attributes>**WebServices**
@@ -165,9 +165,9 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>470</x>
-      <y>330</y>
-      <w>110</w>
+      <x>370</x>
+      <y>290</y>
+      <w>100</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>
@@ -176,59 +176,32 @@ bg=yellow</panel_attributes>
 
 **SATNet DB*
 **Model*
-(library)
-bg=green</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.custom.Component</type>
-    <coordinates>
-      <x>320</x>
-      <y>260</y>
-      <w>100</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>
- 
- 
-**Controllers*
-(library)
+(package)
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>350</x>
-      <y>360</y>
-      <w>140</w>
+      <x>310</x>
+      <y>310</y>
+      <w>80</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;()
 </panel_attributes>
-    <additional_attributes>30;30;120;30</additional_attributes>
+    <additional_attributes>30;30;60;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>240</x>
-      <y>360</y>
-      <w>130</w>
+      <x>270</x>
+      <y>310</y>
+      <w>60</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;(</panel_attributes>
-    <additional_attributes>110;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>340</x>
-      <y>320</y>
-      <w>50</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;(</panel_attributes>
-    <additional_attributes>30;50;30;30</additional_attributes>
+    <additional_attributes>40;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -246,7 +219,7 @@ bg=green</panel_attributes>
     <coordinates>
       <x>180</x>
       <y>640</y>
-      <w>90</w>
+      <w>100</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>center:Twisted
@@ -269,45 +242,45 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>320</x>
-      <y>640</y>
+      <x>280</x>
+      <y>530</y>
       <w>100</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>
  
  
-**Callbacks*
-(library)
+**NetworkIF*
+(package)
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>340</x>
-      <y>380</y>
+      <x>300</x>
+      <y>330</y>
       <w>50</w>
-      <h>280</h>
+      <h>220</h>
     </coordinates>
     <panel_attributes>lt=&lt;(</panel_attributes>
-    <additional_attributes>30;30;30;260</additional_attributes>
+    <additional_attributes>30;30;30;200</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>240</x>
-      <y>660</y>
+      <x>200</x>
+      <y>550</y>
       <w>100</w>
-      <h>50</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;80;30</additional_attributes>
+    <additional_attributes>30;90;30;30;80;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>480</x>
+      <x>390</x>
       <y>640</y>
       <w>100</w>
       <h>100</h>
@@ -323,13 +296,13 @@ bg=green</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>390</x>
-      <y>660</y>
+      <x>350</x>
+      <y>550</y>
       <w>110</w>
-      <h>50</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;90;30</additional_attributes>
+    <additional_attributes>30;30;90;30;90;90</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Actor</type>
@@ -378,23 +351,22 @@ Operator
     <coordinates>
       <x>60</x>
       <y>120</y>
-      <w>150</w>
+      <w>160</w>
       <h>200</h>
     </coordinates>
     <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>130;180;70;180;70;30;30;30</additional_attributes>
+    <additional_attributes>140;180;70;180;70;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Note</type>
     <coordinates>
       <x>390</x>
-      <y>470</y>
-      <w>200</w>
+      <y>410</y>
+      <w>230</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>*Note*
-The 
-"SATNet DB Model library"
+The "SATNet DB Model library"
 must be shared between 
 the web applications and
 the daemon.
@@ -402,51 +374,39 @@ bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>160</x>
-      <y>590</y>
-      <w>440</w>
-      <h>160</h>
+      <x>420</x>
+      <y>330</y>
+      <w>110</w>
+      <h>120</h>
     </coordinates>
-    <panel_attributes>*Protocol*
-(daemon on Debian)
-bg=white</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;90;100</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>250</x>
-      <y>150</y>
-      <w>190</w>
+      <x>280</x>
+      <y>180</y>
+      <w>150</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>30;50;120;50;120;110</additional_attributes>
+    <additional_attributes>40;30;40;70;120;70;130;110</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
-      <x>450</x>
-      <y>390</y>
-      <w>50</w>
-      <h>110</h>
+      <x>170</x>
+      <y>480</y>
+      <w>340</w>
+      <h>280</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;.</panel_attributes>
-    <additional_attributes>30;30;30;90</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>250</x>
-      <y>190</y>
-      <w>300</w>
-      <h>160</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>30;50;230;50;230;140</additional_attributes>
+    <panel_attributes>*Protocol*
+(Debian daemon)
+bg=white</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

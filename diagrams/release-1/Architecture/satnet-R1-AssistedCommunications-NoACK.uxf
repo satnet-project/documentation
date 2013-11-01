@@ -111,7 +111,7 @@ notifyMsg(C,msg-1)
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;
-connect(A,slot-id)</panel_attributes>
+startRemote(A,slot-id)</panel_attributes>
     <additional_attributes>27;45;225;45</additional_attributes>
   </element>
   <element>
@@ -245,7 +245,7 @@ notifyConnection(C)</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;
-connect(A,slot-id)</panel_attributes>
+startRemote(A,slot-id)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
@@ -576,7 +576,7 @@ bg=yellow</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-connect(C,slot-id)
+startRemote(C,slot-id)
 </panel_attributes>
     <additional_attributes>225;45;27;45</additional_attributes>
   </element>
@@ -636,7 +636,7 @@ bg=yellow</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-connect(C,slot-id)
+startRemote(C,slot-id)
 </panel_attributes>
     <additional_attributes>225;45;27;45</additional_attributes>
   </element>

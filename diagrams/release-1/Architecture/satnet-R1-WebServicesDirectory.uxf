@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.PackageAggregationHierarchy</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>400</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>satnet-release-1@github.com//
+	LICENSE
+	README.md
+	WebServices// # Django project structure
+		.gitignore
+		manage.py
+		booking//
+		configuration//
+		registration//
+		satnet_db//
+		satnet_web_services//
+	Protocol//
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

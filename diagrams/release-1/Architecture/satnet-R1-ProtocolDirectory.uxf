@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.PackageAggregationHierarchy</type>
+    <coordinates>
+      <x>20</x>
+      <y>0</y>
+      <w>390</w>
+      <h>770</h>
+    </coordinates>
+    <panel_attributes>satnet-release-1@github.com//
+	LICENSE
+	README.md
+	WebServices/$(django project structure)//
+	Protocol//
+		.gitignore
+		README
+		setup.py
+		doc//
+			.gitignore {*}
+		scripts//
+		protocol//
+			__init__.py
+			protocol.py
+			test//
+				__init__.py
+		client_if//
+			__init__.py
+			test//
+				__init__.py
+		test_client//
+			__init__.py
+			test//
+				__init__.py</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

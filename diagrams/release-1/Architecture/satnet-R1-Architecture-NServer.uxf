@@ -9,7 +9,7 @@
       <w>100</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>NetworkDB
+    <panel_attributes>SATNet DB
 (MySQL)
 bg=yellow
 fg=black</panel_attributes>
@@ -159,7 +159,7 @@ bg=yellow</panel_attributes>
       <h>350</h>
     </coordinates>
     <panel_attributes>**WebServices**
-(Django Framework + Apache)</panel_attributes>
+(Debian LAMP, Django based)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -409,8 +409,8 @@ bg=orange</panel_attributes>
       <w>440</w>
       <h>160</h>
     </coordinates>
-    <panel_attributes>*Client-IF Daemon*
-(daemon protocol)
+    <panel_attributes>*Protocol*
+(daemon on Debian)
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>

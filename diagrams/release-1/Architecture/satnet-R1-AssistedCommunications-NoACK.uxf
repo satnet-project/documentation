@@ -87,7 +87,7 @@ sendMsg(C,msg-1)
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(C,msg-1)
+notifyMsg(C,msg-1)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>
@@ -161,7 +161,7 @@ sendMsg(C,msg-3)
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(C,msg-3)
+notifyMsg(C,msg-3)
 </panel_attributes>
     <additional_attributes>225;45;27;45</additional_attributes>
   </element>
@@ -344,7 +344,7 @@ Error</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(C,msg-2)
+notifyMsg(C,msg-2)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>
@@ -404,7 +404,7 @@ sendMsg(A,msg-S2)</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(A,msg-S2)</panel_attributes>
+notifyMsg(A,msg-S2)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
@@ -416,7 +416,7 @@ sendMsg(A,msg-S2)</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(A,msg-S1)</panel_attributes>
+notifyMsg(A,msg-S1)</panel_attributes>
     <additional_attributes>27;45;234;45</additional_attributes>
   </element>
   <element>
@@ -464,7 +464,7 @@ sendMsg(C,msg-1)
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-sendMsg(C,msg-3)
+notifyMsg(C,msg-3)
 </panel_attributes>
     <additional_attributes>234;45;27;45</additional_attributes>
   </element>

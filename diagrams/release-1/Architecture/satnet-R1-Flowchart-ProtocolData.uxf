@@ -216,7 +216,7 @@ bg=white</panel_attributes>
       <w>132</w>
       <h>44</h>
     </coordinates>
-    <panel_attributes>C.sendMsg
+    <panel_attributes>C.notifyMsg
 (A,C,msg)
 fg=black
 bg=orange</panel_attributes>

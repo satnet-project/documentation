@@ -1,2 +1,0 @@
-rtubio:_s_atnet@satnet-deb-vm.calpoly.edu
-* Django admin: satnet_admin:_805Satnet, mail=rtubiopa@calpoly.edu

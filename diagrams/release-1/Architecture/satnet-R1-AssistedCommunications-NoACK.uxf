@@ -108,10 +108,11 @@ startRemote(slot-id)</panel_attributes>
       <x>410</x>
       <y>540</y>
       <w>340</w>
-      <h>70</h>
+      <h>94</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-notifyConnection(C)</panel_attributes>
+notifyEvent
+("REMOTE_CONNECTED")</panel_attributes>
     <additional_attributes>30;50;320;50</additional_attributes>
   </element>
   <element>
@@ -438,7 +439,7 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>410</x>
       <y>130</y>
-      <w>320</w>
+      <w>330</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
@@ -451,7 +452,7 @@ startRemote(slot-id)
     <coordinates>
       <x>410</x>
       <y>160</y>
-      <w>320</w>
+      <w>330</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;
@@ -463,8 +464,8 @@ startRemote(slot-id)
     <coordinates>
       <x>390</x>
       <y>150</y>
-      <w>60</w>
-      <h>40</h>
+      <w>70</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>50;30;30;30</additional_attributes>
@@ -474,8 +475,8 @@ startRemote(slot-id)
     <coordinates>
       <x>390</x>
       <y>200</y>
-      <w>60</w>
-      <h>40</h>
+      <w>70</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>30;30;50;30</additional_attributes>
@@ -485,7 +486,7 @@ startRemote(slot-id)
     <coordinates>
       <x>410</x>
       <y>180</y>
-      <w>330</w>
+      <w>340</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;.
@@ -535,8 +536,8 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>390</x>
       <y>50</y>
-      <w>60</w>
-      <h>40</h>
+      <w>70</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>50;30;30;30</additional_attributes>
@@ -546,7 +547,7 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>410</x>
       <y>30</y>
-      <w>320</w>
+      <w>330</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
@@ -570,7 +571,7 @@ login(A_creds)
     <coordinates>
       <x>410</x>
       <y>60</y>
-      <w>320</w>
+      <w>330</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;
@@ -582,7 +583,7 @@ login(A_creds)
     <coordinates>
       <x>410</x>
       <y>80</y>
-      <w>330</w>
+      <w>340</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;.
@@ -595,8 +596,8 @@ fg=green</panel_attributes>
     <coordinates>
       <x>390</x>
       <y>100</y>
-      <w>60</w>
-      <h>40</h>
+      <w>70</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>30;30;50;30</additional_attributes>
@@ -619,7 +620,7 @@ bg=green</panel_attributes>
     <coordinates>
       <x>700</x>
       <y>250</y>
-      <w>330</w>
+      <w>340</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&gt;&gt;&gt;&gt;.
@@ -643,8 +644,8 @@ fg=green</panel_attributes>
     <coordinates>
       <x>990</x>
       <y>220</y>
-      <w>70</w>
-      <h>40</h>
+      <w>80</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>60;30;30;30</additional_attributes>
@@ -654,8 +655,8 @@ fg=green</panel_attributes>
     <coordinates>
       <x>990</x>
       <y>270</y>
-      <w>70</w>
-      <h>40</h>
+      <w>80</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>30;30;60;30</additional_attributes>
@@ -691,7 +692,7 @@ bg=green</panel_attributes>
     <coordinates>
       <x>700</x>
       <y>200</y>
-      <w>330</w>
+      <w>340</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;
@@ -703,7 +704,7 @@ login(user_c_creds)</panel_attributes>
     <coordinates>
       <x>700</x>
       <y>230</y>
-      <w>330</w>
+      <w>340</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;
@@ -923,8 +924,8 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>390</x>
       <y>280</y>
-      <w>60</w>
-      <h>40</h>
+      <w>70</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>50;30;30;30</additional_attributes>
@@ -934,7 +935,7 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>410</x>
       <y>260</y>
-      <w>320</w>
+      <w>330</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
@@ -958,7 +959,7 @@ login(A_creds)
     <coordinates>
       <x>410</x>
       <y>290</y>
-      <w>320</w>
+      <w>330</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;
@@ -1217,10 +1218,11 @@ startRemote(slot-id)</panel_attributes>
       <x>410</x>
       <y>890</y>
       <w>340</w>
-      <h>70</h>
+      <h>94</h>
     </coordinates>
     <panel_attributes>lt=&lt;
-notifyConnection(C)</panel_attributes>
+notifyEvent
+("REMOTE_CONNECTED")</panel_attributes>
     <additional_attributes>30;50;320;50</additional_attributes>
   </element>
   <element>
